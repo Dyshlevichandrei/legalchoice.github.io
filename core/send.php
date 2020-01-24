@@ -1,14 +1,14 @@
 ﻿<?php
  
-   $to = 'korzhova_alesya@mail.ru, dyshlevichandrei@gmail.com';       
+   $to = 'dyshlevich_87@mail.ru, dyshlevichandrei@gmail.com';       
    $from = 'info@dreamvacation.by'; 
-   $subject = 'Заказ с сайта dreamvacation'; 
+   $subject = 'Заказ с сайта LigalChoice'; 
    $subject = '=?utf-8?b?'. base64_encode($subject) .'?=';
    $headers = "Content-type: text/plain; charset=\"utf-8\"\r\n"; 
    $headers .= "From: <". $from .">\r\n"; 
    $headers .= "MIME-Version: 1.0\r\n"; 
    $headers .= "Date: ". date('D, d M Y h:i:s O') ."\r\n"; 
-   $message = 'хочу заказывать у вас тур'; 
+   $message = 'Хочу заказать у вас услуги'; 
 if(isset($_POST['name']))
 
 $message = "

@@ -1,8 +1,8 @@
 ﻿<?php
  
    $to = 'dyshlevich_87@mail.ru, dyshlevichandrei@gmail.com';       
-   $from = 'info@dreamvacation.by'; 
-   $subject = 'Заказ с сайта LigalChoice'; 
+   $from = 'info@legalchoice.by'; 
+   $subject = 'Заказ с сайта LegalChoice'; 
    $subject = '=?utf-8?b?'. base64_encode($subject) .'?=';
    $headers = "Content-type: text/plain; charset=\"utf-8\"\r\n"; 
    $headers .= "From: <". $from .">\r\n"; 

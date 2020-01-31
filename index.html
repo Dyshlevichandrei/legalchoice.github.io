@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ru">
 
 <head>
@@ -28,7 +28,9 @@
                 <form action="./core/send.php" method="POST" class="form-submit">
                     <div class="input-span name-icon"><input type="text" name="name" placeholder="Введите имя" required></div>
                     <div class="input-span name-icon mail-for"><input type="text" name="e-mail" placeholder="Введите e-mail" required></div>
-                    <div class="input-span phone-icon"><input type="text" name="phone" placeholder="Введите телефон" required></div> <input type="hidden" name="type" value=""> <button class="submit-button"></button>
+                    <div class="input-span phone-icon"><input type="text" name="phone" placeholder="Введите телефон" required></div>
+                    <div class="input-textarea"><textarea name="text" placeholder="*Текст сообщения" required cols="34" rows="5"></textarea></div>
+                    <input type="hidden" name="type" value=""> <button class="submit-button"></button>
                     <p> <i class="warranty"></i> Ваши контактные данные в безопаcности <br>и не будут переданы <span class="form-call agreement-call">третьим лицам</span> </p>
                 </form>
             </div>
@@ -50,7 +52,79 @@
                 <li class="nav__link">
                     <ul class="nav__link__item"><a href="index.html">Главная</a></ul>
                     <ul class="nav__link__item"><a href="#">О компании</a></ul>
-                    <ul class="nav__link__item"><a href="office.html">Услуги</a></ul>
+                    <ul class="nav__link__item">
+                        <div class="dropdown">
+                            <a class="dropbtn">Услуги</a>
+                            <div class="dropdown-content">
+                                <div class="dropdown-content-items">
+                                    <div class="office__items__item-col">
+                                        <h3>СОЗДАНИЕ И АДМИНИСТРИРОВАНИЕ БИЗНЕСА</h3>
+                                        <div class="col-office">
+                                            <ul class="title-box">Регистрация юридического лица
+                                                <li>Регистрация (ИП, ЗАО, ОДО, ООО, ЧУП)</li>
+                                                <li>Регистрация филиала</li>
+                                                <li>Открытие иностранного представительства</li>
+                                            </ul>
+                                            <ul class="title-box">Реорганизация юридического лица
+                                                <li>Реорганизация в форме <br>(выделения, преобразования, присоединения, разделения, слияния)</li>
+                                                <li>Реорганизация ООО</li>
+                                            </ul>
+                                            <ul class="title-box">Внесение изменений в устав
+                                                <li>Замена руководителя (директора)</li>
+                                                <li>Изменение видов деятельности</li>
+                                                <li>Изменение наименования</li>
+                                                <li>Изменение размера уставного фонда</li>
+                                                <li>Изменение состава участников</li>
+                                                <li>Смена юридического адреса</li>
+                                                <li>Покупка и продажа бизнеса</li>
+                                            </ul>
+                                            <ul class="title-box">Ликвидация юридического лица
+                                                <li>Ликвидация ИП, ЧУП, ООО</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="office__items__item">
+                                        <h3>СОПРОВОЖДЕНИЕ БИЗНЕС-ДЕЯТЕЛЬНОСТИ</h3>
+                                        <ul class="title-box">Взыскание долгов</ul>
+                                        <ul class="title-box">Составление договоров</ul>
+                                        <ul class="title-box">Кадровое делопроизводство</ul>
+                                        <ul class="title-box">Абонентское юридическое обслуживание</ul>
+                                    </div>
+                                    <div class="office__items__item">
+                                        <h3>ИНФОРМАЦИОННЫЕ ТЕХНОЛОГИИ (IT)</h3>
+                                        <ul class="title-box">Разработка договоров для IT компаний</ul>
+                                        <ul class="title-box">Регистрация прав на программный продукт</ul>
+                                        <ul class="title-box">Регистрация резидентов в ПВТ</ul>
+                                    </div>
+                                    <div class="office__items__item">
+                                        <h3>ЗАЩИТА БИЗНЕСА</h3>
+                                        <ul class="title-box">Защита нарушенных прав</ul>
+                                        <ul class="title-box">Антимонопольное регулирование</ul>
+                                        <ul class="title-box">Недобросовестная конкуренция</ul>
+                                        <ul class="title-box">Защита от подделок</ul>
+                                    </div>
+                                    <div class="office__items__item-col">
+                                        <h3>ИНТЕЛЛЕКТУАЛЬНАЯ СОБСТВЕННОСТЬ</h3>
+                                        <div class="col-office">
+                                            <ul class="title-box">Защита интеллектуальной собственности
+                                                <li>Защита в правоохранительных органах</li>
+                                                <li>Защита в суде</li>
+                                            </ul>
+                                            <ul class="title-box">Распоряжение исключительными правами
+                                                <li>Договор франчайзинга</li>
+                                                <li>Договор залога</li>
+                                            </ul>
+
+                                            <ul class="title-box">Регистрация интеллектуальной собственности
+                                                <li>Защита коммерческой тайны</li>
+                                                <li>Регистрация товарного знака</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </ul>
                     <ul class="nav__link__item"><a href="#">Цены</a></ul>
                     <ul class="nav__link__item"><a href="#">Контакты</a></ul>
                 </li>
@@ -62,10 +136,10 @@
             <div class="slaid__jobs__item">
                 <div class="slaid__jobs__item__box">
                     <div class="jobs__title">Юридические услуги</div>
-                    <div class="jobs__subtitle">Эффективная работа профессионалов<br>без задержек и перерывов, доступная среднему и малому Бизнесу</div>
+                    <div class="jobs__subtitle">Эффективная работа <b>профессионалов</b><br>без задержек и перерывов, доступная среднему и малому Бизнесу</div>
                     <div class="jobs__text">Регистрация и ликвидация компаний и ИП</div>
                     <div class="jobs__text">Изменение в учредительные документы</div>
-                    <div class="jobs__text">Подготовка документов(договоры,иски,жалобы и др.)</div>
+                    <div class="jobs__text">Подготовка документов (договоры,иски,жалобы и др.)</div>
                     <div class="jobs__text">Взыскание денежных долгов,процентов,наложение ареста</div>
                     <div class="jobs__text">Претензионно-исковая работа</div>
                     <div class="jobs__text">Прочи услуги</div>
@@ -78,9 +152,9 @@
                 </div>
                 <div class="slaid__jobs__item__box">
                     <div class="jobs__title">Все виды бухгалтерских услуг</div>
-                    <div class="jobs__subtitle">Целая команда профессионалов <b>по цене одного</b> штатного специалиста
+                    <div class="jobs__subtitle">Целая команда профессионалов <b>по цене одного</b></br> штатного специалиста
                     </div>
-                    <div class="jobs__text">Сдача отчётности(ФСЗН,налоги,отчеты,декларации)</div>
+                    <div class="jobs__text">Сдача отчётности (ФСЗН,налоги,отчеты,декларации)</div>
                     <div class="jobs__text">Восстановление бухгалтерского учёта</div>
                     <div class="jobs__text">Формирование начислений З/П</div>
                     <div class="jobs__text">Квартальный и годовой отчет</div>
@@ -163,7 +237,7 @@
                             <img src="./assets/img/office.png" class="entity-img" />
                         </figure>
                         <div class="content">
-                            <p class="title">Скидка до 30% </p>
+                            <p class="title">Скидка до <b>30%</b> </p>
                             <span class="caption">Начинающему предпринимателю в течении первых трех месяцев</span>
                         </div>
                     </div>
@@ -172,7 +246,7 @@
                             <img src="./assets/img/yriste.jpg" class="entity-img" />
                         </figure>
                         <div class="content">
-                            <p class="title">ОТКРЫТИЕ БИЗНЕСА «ПОД КЛЮЧ».</p>
+                            <p class="title">ОТКРЫТИЕ БИЗНЕСА <b>«ПОД КЛЮЧ».</b></p>
                             <span class="caption">Сопровождение Бизнеса. Помощь в поиске помещения. Подбор персонала. Реклама</span>
                         </div>
                     </div>
@@ -182,7 +256,7 @@
                         </figure>
                         <div class="content">
                             <p class="title">При восстановление бухгалтерского учета</p>
-                            <span class="caption">От 6 месяцев до 1 года предоставляется скидка 15%, от 1 года – скидка 20%</span>
+                            <span class="caption">От 6 месяцев до 1 года предоставляется скидка <b>15%</b>, от 1 года – скидка <b>20%</b></span>
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -217,7 +291,7 @@
                             <img src="./assets/img/office.png" class="entity-img" />
                         </figure>
                         <div class="content">
-                            <p class="title">Скидка до 30%</p>
+                            <p class="title">Скидка до <b>30%</b></p>
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -225,7 +299,7 @@
                             <img src="./assets/img/yriste.jpg" class="entity-img" />
                         </figure>
                         <div class="content">
-                            <p class="title">Бизнес под ключ</p>
+                            <p class="title">Бизнес <b>под ключ</b></p>
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -233,7 +307,7 @@
                             <img src="./assets/img/notebook.jpg" class="entity-img" />
                         </figure>
                         <div class="content">
-                            <p class="title">От 1 года – скидка 20%</p>
+                            <p class="title">От 1 года – <b>скидка 20%</b></p>
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -306,12 +380,54 @@
                     </div>
                 </div>
             </div>
+
+            <!-- mobale version -->
+            <div class="box-mobale__items">
+                <ul class="box-mobale">
+                    <li class="mobale wow flipdown">
+                        <input type="checkbox" checked>
+                        <i></i>
+                        <h3 class="box-prace__mobale">Проведение переговоров, заключение договора</h3>
+                        <p class="prace-mobale">Получаем информацию о вашей компании, согласуем условия сотрудничества и заключаем договор</p>
+                    </li>
+                    <li class="mobale wow flipdown">
+                        <input type="checkbox" checked>
+                        <i></i>
+                        <h3 class="box-prace__mobale">Постановка бухгалтерского учета</h3>
+                        <p class="prace-mobale">Определяем участки бухучета, предоставляем скрипты для работы, формируем штат, определяем оптимальную систему налогообложения</p>
+                    </li>
+                    <li class="mobale wow flipdown">
+                        <input type="checkbox" checked>
+                        <i></i>
+                        <h3 class="box-prace__mobale">Назначение бухгалтера и ведение бухучета</h3>
+                        <p class="prace-mobale">Назначаем персонального бухгалтера, главного бухгалтера и аудитора. Распределяем обязанности и сроки исполнения. Вы предоставляете первичные документы, а бухгалтер их обрабатывает в учетной базе</p>
+                    </li>
+                    <li class="mobale wow flipdown">
+                        <input type="checkbox" checked>
+                        <i></i>
+                        <h3 class="box-prace__mobale">Подготовка и предоставление отчетности</h3>
+                        <p class="prace-mobale">Главный бухгалтер ежемесячно проверяет работу персонального бухгалтера, ежеквартально формирует финансовый результат, начисляет налоги, формирует налоговые декларации и отчеты в госорганы</p>
+                    </li>
+                    <li class="mobale wow flipdown">
+                        <input type="checkbox" checked>
+                        <i></i>
+                        <h3 class="box-prace__mobale">Архивирование документов</h3>
+                        <p class="prace-mobale">Персональный бухгалтер проводит инвентаризацию первичных бухгалтерских документов, составляет реестры первичных бухгалтерских документов и передает их вам</p>
+                    </li>
+                    <li class="mobale wow flipdown">
+                        <input type="checkbox" checked>
+                        <i></i>
+                        <h3 class="box-prace__mobale">Внутренний аудит</h3>
+                        <p class="prace-mobale">Раз в год мы проводим внутренний аудит бухгалтерской и налоговой отчетности вашей компании</p>
+                    </li>
+                </ul>
+            </div>
         </div>
 
 
         <!-- service -->
         <div class="servis ">
-            <div class="servis__title">Тарифные планы</div>
+            <div class="servis__title">Тарифные планы бухгалтерских услуг</div>
             <div class="servis__items">
                 <div class="servis__items__item  wow zoomIn">
                     <div class="front">
@@ -418,7 +534,6 @@
                                 <li>Восстановление бухгалтерского учета</li>
                                 <li>Сдача бухгалтерского баланса</li>
                                 <li>Подготовка к ликвидации</li>
-                                <p class="servis__prace__sale ref">Рассчитывается индивидуально</p>
                             </ul>
                         </div>
                     </div>
@@ -428,7 +543,8 @@
         </div>
 
 
-        <div class="clienteff">
+        <div class="clienteff wow">
+            <div class="clienteff__title">Мы работаем для вас 24/7</div>
             <div class="items">
                 <div class="item wow anim">
                     <img src="./assets/img/like.svg" alt="">
@@ -656,18 +772,38 @@
                         <input type="number" value="" placeholder="шт" name="" class="" min=""></label>
                 </div>
             </div>
-
-
-
-
-
-
-
-
-
-
         </div>
+
+
+
+        <!-- topic -->
+        <div class="topic">
+            <div class="topic__title">Остались вопросы? Напишите нам</div>
+            <div class="topic__subtitle">Мы здесь, чтобы помочь вам</div>
+            <form action="./core/send.php" method="POST" class="form-submit topic-form">
+                <div class="section-form">
+                    <div class="input-span name-icon"><input type="text" name="name" placeholder="Введите имя" required></div>
+                    <div class="input-span name-icon mail-for"><input type="text" name="e-mail" placeholder="Введите e-mail" required></div>
+                    <div class="input-span phone-icon"><input type="text" name="phone" placeholder="Введите телефон" required></div>
+                </div>
+                <div class="section-form">
+                    <textarea cols="50" rows="7" placeholder="*Напишите коментарии" name=""></textarea>
+                    <input type="hidden" name="type" value="">
+                </div>
+                <button class="submit-button btn__topic">Отправить</button>
+            </form>
         </div>
+        <div class="topic contacts"></div>
+        <div class="topic__title contacts">Контакты</div>
+
+
+
+
+
+
+
+
+
     </main>
 
 
@@ -680,24 +816,20 @@
         <div class="info">
             <p class="info__title">ООО «Лигал Чойз» </br>УНП 192378104, лицензия № 02240/2449 на право осуществления деятельности на оказание юридических услуг</p>
             <p class="info__text">Информация, представленная на сайте не является договором публичной оферты © 2018­-2020</p>
-            <div class="input-span name-icon"><input type="text" name="name" placeholder="Введите имя" required></div>
-            </br>
-            <div class="input-span name-icon mail-for"><input type="text" name="e-mail" placeholder="Введите e-mail" required></div>
-            </br>
-            <button type="submit" class="btn__click">Подписаться на рассылку</button>
+            <div class="conteiner__social">
+                <div class="social">
+                    <div class="social__title">Соцсети и месенжеры</div>
+                    <button class="btn "><img src="./assets/img/messange.svg" alt=""></button>
+                    <a href="#"><img class="social__icon fa active" src="./assets/img/facebook.svg" alt=" "></a>
+                    <a href="#"><img class="social__icon inst active" src="./assets/img/instagram.svg " alt=" "></a>
+                    <a href="#"><img class="social__icon skype active" src="./assets/img/skype.svg " alt=" "></a>
+                    <a href="#"><img class="social__icon telegram active" src="./assets/img/telegram.svg " alt=" "></a>
+                    <a href="#"><img class="social__icon vk active" src="./assets/img/vk.svg " alt=" "></a>
+                </div>
+            </div>
             <div class="copy">Дизайн и создание сайта - <a href="#">Pixar.by</a> © 2020</div>
         </div>
-        <div class="conteiner__social">
-            <div class="social">
-                <div class="social__title">Соцсети и месенжеры</div>
-                <button class="btn "><img src="./assets/img/messange.svg" alt=""></button>
-                <a href="#"><img class="social__icon fa active" src="./assets/img/facebook.svg" alt=" "></a>
-                <a href="#"><img class="social__icon inst active" src="./assets/img/instagram.svg " alt=" "></a>
-                <a href="#"><img class="social__icon skype active" src="./assets/img/skype.svg " alt=" "></a>
-                <a href="#"><img class="social__icon telegram active" src="./assets/img/telegram.svg " alt=" "></a>
-                <a href="#"><img class="social__icon vk active" src="./assets/img/vk.svg " alt=" "></a>
-            </div>
-        </div>
+
 
     </div>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js'></script>

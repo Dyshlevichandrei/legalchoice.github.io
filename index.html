@@ -24,7 +24,7 @@
     <section class="message-block">
         <div class="message-block-inner">
             <div class="form-message">
-                <h2 class="title"></h2>
+                <h3 class="title"></h3>
                 <form action="./core/send.php" method="POST" class="form-submit">
                     <div class="input-span name-icon"><input type="text" name="name" placeholder="Введите имя" required></div>
                     <div class="input-span name-icon mail-for"><input type="text" name="e-mail" placeholder="Введите e-mail" required></div>
@@ -50,10 +50,14 @@
                     <a href="indexeng.html"><img src="./assets/img/eng.png" alt=""></a>
                 </div>
                 <div class="nav__link">
-                    <ul class="nav__link__item"><a href="index.html">Главная</a></ul>
-                    <ul class="nav__link__item"><a href="#">О компании</a></ul>
                     <ul class="nav__link__item">
-                        <div class="dropdown">
+                        <li><a href="index.html">Главная</a></li>
+                    </ul>
+                    <ul class="nav__link__item">
+                        <li><a href="#">О компании</a></li>
+                    </ul>
+                    <ul class="nav__link__item">
+                        <li class="dropdown">
                             <a class="dropbtn">Услуги</a>
                             <div class="dropdown-content">
                                 <div class="dropdown-content-items">
@@ -123,10 +127,14 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </li>
                     </ul>
-                    <ul class="nav__link__item"><a href="#">Цены</a></ul>
-                    <ul class="nav__link__item"><a href="#">Контакты</a></ul>
+                    <ul class="nav__link__item">
+                        <li><a href="#">Цены</a></li>
+                    </ul>
+                    <ul class="nav__link__item">
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
                 </div>
                 <a class="tel" href="tel:+375291110358"><img src="./assets/img/8939958468638.svg" alt="svg+xml">+375(29)111-03-58</a>
                 <button type="submit" class="btn__click">Оставить заявку</button>
@@ -136,7 +144,7 @@
             <div class="slaid__jobs__item">
                 <div class="slaid__jobs__item__box">
                     <div class="jobs__title">Юридические услуги</div>
-                    <div class="jobs__subtitle">Эффективная работа <b>профессионалов</b><br>без задержек и перерывов, доступная среднему и малому Бизнесу</div>
+                    <div class="jobs__subtitle">Эффективная работа <b>профессионалов</b> <br>без задержек и перерывов, доступная среднему и малому Бизнесу</div>
                     <div class="jobs__text">Регистрация и ликвидация компаний и ИП</div>
                     <div class="jobs__text">Изменение в учредительные документы</div>
                     <div class="jobs__text">Подготовка документов (договоры,иски,жалобы и др.)</div>
@@ -152,7 +160,7 @@
                 </div>
                 <div class="slaid__jobs__item__box">
                     <div class="jobs__title">Все виды бухгалтерских услуг</div>
-                    <div class="jobs__subtitle">Целая команда профессионалов <b>по цене одного</b> </br> штатного специалиста
+                    <div class="jobs__subtitle">Целая команда профессионалов <b>по цене одного</b> <br> штатного специалиста
                     </div>
                     <div class="jobs__text">Сдача отчётности (ФСЗН,налоги,отчеты,декларации)</div>
                     <div class="jobs__text">Восстановление бухгалтерского учёта</div>
@@ -718,59 +726,59 @@
                 </div>
                 <div class="form-group">
                     <label for="page-size">Приходные накладные РБ 
-                        <input type="number" value="" placeholder="шт"  class="" ></label>
+                        <input type="number" value="" placeholder="шт"   ></label>
                 </div>
                 <div class="form-group">
                     <label for="page-size">Расходные накладные РБ 
-                        <input type="number" value="" placeholder="шт"  class="" ></label>
+                        <input type="number" value="" placeholder="шт"   ></label>
                 </div>
                 <div class="form-group">
                     <label for="page-size">Приходные накладные (импорт) 
-                        <input type="number" value="" placeholder="шт"  class="" ></label>
+                        <input type="number" value="" placeholder="шт"   ></label>
                 </div>
                 <div class="form-group">
                     <label for="page-size">Акты оказанных услуг по РБ
-                         <input type="number" value="" placeholder="шт"  class="" ></label>
+                         <input type="number" value="" placeholder="шт"   ></label>
                 </div>
                 <div class="form-group">
                     <label for="page-size">Акты оказанных услуг (экспорт)
-                         <input type="number" value="" placeholder="шт"  class="" ></label>
+                         <input type="number" value="" placeholder="шт"   ></label>
                 </div>
                 <div class="form-group">
                     <label for="page-size">Акты полученных услуг по РБ 
-                        <input type="number" value="" placeholder="шт"  class="" ></label>
+                        <input type="number" value="" placeholder="шт"   ></label>
                 </div>
                 <div class="form-group">
                     <label for="page-size">Акты полученных услуг (импорт)
-                         <input type="number" value="" placeholder="шт"  class="" ></label>
+                         <input type="number" value="" placeholder="шт"   ></label>
                 </div>
                 <div class="form-group">
                     <label for="page-size">Акты списания материалов 
-                        <input type="number" value="" placeholder="шт"  class="" ></label>
+                        <input type="number" value="" placeholder="шт"   ></label>
                 </div>
                 <div class="form-group">
                     <label for="page-size">Авансовые отчеты 
-                        <input type="number" value="" placeholder="шт"  class="" ></label>
+                        <input type="number" value="" placeholder="шт"   ></label>
                 </div>
                 <div class="form-group">
                     <label for="page-size">Заявления по НДС при импорте из РФ
-                         <input type="number" value="" placeholder="шт" class="" ></label>
+                         <input type="number" value="" placeholder="шт"  ></label>
                 </div>
                 <div class="form-group">
                     <label for="page-size">Путевые листы
-                         <input type="number" value="" placeholder="шт"  class="" ></label>
+                         <input type="number" value="" placeholder="шт"   ></label>
                 </div>
                 <div class="form-group">
                     <label for="page-size">Иные первичные документы
-                         <input type="number" value="" placeholder="шт"  class="" ></label>
+                         <input type="number" value="" placeholder="шт"   ></label>
                 </div>
                 <div class="form-group">
                     <label for="page-size">Приходный кассовый ордер
-                         <input type="number" value="" placeholder="шт"  class="" ></label>
+                         <input type="number" value="" placeholder="шт"   ></label>
                 </div>
                 <div class="form-group">
                     <label for="page-size">Расходный кассовый ордер 
-                        <input type="number" value="" placeholder="шт"  class="" ></label>
+                        <input type="number" value="" placeholder="шт"   ></label>
                 </div>
             </div>
         </div>
@@ -788,7 +796,7 @@
                     <div class="input-span phone-icon"><input type="text" name="phone" placeholder="Введите телефон" required></div>
                 </div>
                 <div class="section-form">
-                    <textarea cols="50" rows="7" placeholder="*Напишите коментарии" name=""></textarea>
+                    <textarea cols="50" rows="7" placeholder="*Напишите коментарии"></textarea>
                     <input type="hidden" name="type" value="">
                 </div>
                 <button class="submit-button btn__topic">Отправить</button>
@@ -798,13 +806,13 @@
             <div class="social">
                 <div class="social__title"></div>
                 <button class="btn "><img src="./assets/img/messange.svg" alt=""></button>
-                <a href="#"><img class="social__icon fa active" src="./assets/img/facebook.svg" alt=" "></a>
-                <a href="#"><img class="social__icon inst active" src="./assets/img/instagram.svg " alt=" "></a>
-                <a href="#"><img class="social__icon skype active" src="./assets/img/skype.svg " alt=" "></a>
-                <a href="#"><img class="social__icon telegram active" src="./assets/img/telegram.svg " alt=" "></a>
-                <a href="#"><img class="social__icon vk active" src="./assets/img/vk.svg " alt=" "></a>
+                <a href="#"><img class="social__icon fa active" src="./assets/img/facebook.svg" alt="svg+xml"></a>
+                <a href="#"><img class="social__icon inst active" src="./assets/img/instagram.svg " alt="svg+xml"></a>
+                <a href="#"><img class="social__icon skype active" src="./assets/img/skype.svg " alt="svg+xml"></a>
+                <a href="#"><img class="social__icon telegram active" src="./assets/img/telegram.svg " alt="svg+xml"></a>
+                <a href="#"><img class="social__icon vk active" src="./assets/img/vk.svg " alt="svg+xml"></a>
             </div>
-            <p class="topic__title-contacts-info">ООО «Лигал Чойз» </br>УНП 192378104, лицензия № 02240/2449 <br>на право осуществления деятельности на оказание юридических услуг</p>
+            <div class="topic__title-contacts-info">ООО «Лигал Чойз» <br>УНП 192378104, лицензия № 02240/2449 <br>на право осуществления деятельности на оказание юридических услуг</div>
 
             <div class="ico-wrap"> <i class="fa fa-map-marker ico-contact"></i>
             </div>
@@ -846,8 +854,8 @@
             <div class="descript-wrapper">
                 <h4 class="aio-icon-title">Наши Телефоны:</h4>
                 <div class="aio-icon-description">
-                    <img src="./assets/img/8939958468638.svg" alt "">+375 (29) 111-03-58
-                    <br><img src="./assets/img/8939958468638.svg" alt "">+375 (29) 260-08-87</div>
+                    <img src="./assets/img/8939958468638.svg" alt="svg+xml">+375 (29) 111-03-58
+                    <br><img src="./assets/img/8939958468638.svg" alt="svg+xml">+375 (29) 260-08-87</div>
             </div>
 
             <span class="clearfix"></span>

@@ -1,4 +1,4 @@
-﻿<?php
+<?php
  
    $to = 'dyshlevich_87@mail.ru, dyshlevichandrei@gmail.com';       
    $from = 'info@legalchoice.by'; 
@@ -13,14 +13,15 @@ if(isset($_POST['name']))
 
 $message = "
 Информация о покупателе:
-
 Имя: ".$_POST['name']."
 E-mail: ".$_POST['e-mail']."
 Телефон: ".$_POST['phone']."
+Сообщение: ".$_POST['text']."
 Время заказа: ".date("Y-m-d H:i:s");
    
    mail($to, $subject, $message, $headers);
 
 {
 	header('Location: good.html');
+	
 }

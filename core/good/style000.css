@@ -58,11 +58,12 @@ a:hover{
 .order_number{
 	text-align:center;
 	font-family: Arial;
-	font-size:30px;
+	font-size:20px;
 	text-transform:uppercase;
 	color:#424242;
 	line-height:38px;
 	margin:25px 0 25px 0;
+	text-transform:none;
 }
 .order_number span{
 	color: #e14740;
@@ -90,7 +91,8 @@ font-size: 24px;
 }
     .order_number {
 
-font-size: 20px;
+font-size: 16px;
+text-transform:none;
 
 }
     

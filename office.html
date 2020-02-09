@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
@@ -7,10 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="referrer" content="origin" />
     <link rel="icon" href="./assets/img/favicon.ico" type="image/x-icon" />
-    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon" />
     <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css'>
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="styles/style.css">
-    <title>Limited liability company "Legal Choice" </title>
+    <title>Общество с ограниченной ответственностью "Лигал Чойз" </title>
 
 </head>
 
@@ -22,22 +22,22 @@
         </div>
     </div>
     <div class="overlay"></div>
-    <section class="message-block">
+    <div class="message-block">
         <div class="message-block-inner">
             <div class="form-message">
-                <h3 class="form-text_title">Completed form</h3>
+                <h3 class="form-text_title">Заполните форму</h3>
                 <form action="./core/send.php" method="POST" class="form-submit">
-                    <div class="input-span name-icon"><input type="text" name="name" placeholder="Enter a name" required></div>
-                    <div class="input-span name-icon mail-for"><input type="text" name="e-mail" placeholder="Enter your e-mail address" required></div>
-                    <div class="input-span phone-icon"><input type="text" name="phone" placeholder="Enter your phone number" required></div>
+                    <div class="input-span name-icon"><input type="text" name="name" placeholder="Введите имя" required></div>
+                    <div class="input-span name-icon mail-for"><input type="text" name="e-mail" placeholder="Введите e-mail" required></div>
+                    <div class="input-span phone-icon"><input type="text" name="phone" placeholder="Введите телефон" required></div>
                     <div class="textarea"><textarea name="text" placeholder="*Текст сообщения" required cols="30" rows="7"></textarea></div>
                     <input type="hidden" name="type" value=""> <button class="submit-button"></button>
-                    <p> <i class="warranty"></i> Your contact information is secure <br>and will not be shared <span class="form-call agreement-call">with third parties</span> </p>
+                    <p> <i class="warranty"></i> Ваши контактные данные в безопаcности <br>и не будут переданы <span class="form-call agreement-call">третьим лицам</span> </p>
                 </form>
             </div>
             <div class="close-button"></div>
         </div>
-    </section>
+    </div>
 
     <header>
 
@@ -47,52 +47,137 @@
                     <img src="./assets/img/Logo.png" alt="">
                 </div>
                 <div class="lang">
-                    <a href="index.html"><img src="./assets/img/ru.png" alt="ru"></a>
-                    <a href="indexeng.html"><img src="./assets/img/eng.png" alt="en"></a>
+                    <a href="index.html"><img src="./assets/img/ru.png" alt=""></a>
+                    <a href="indexeng.html"><img src="./assets/img/eng.png" alt=""></a>
                 </div>
-                <li class="nav__link">
-                    <ul class="nav__link__item"><a href="indexeng.html">Main</a></ul>
-                    <ul class="nav__link__item"><a href="#">About company</a></ul>
-                    <ul class="nav__link__item"><a href="office.html">Services</a></ul>
-                    <ul class="nav__link__item"><a href="#">Prices</a></ul>
-                    <ul class="nav__link__item"><a href="#">Contacts</a></ul>
-                </li>
-                <a class="tel" href="tel:+375291110358"><img src="./assets/img/8939958468638.svg" alt "">+375(29)111-03-58</a>
-                <button type="submit" class="btn__click">Submit a request</button>
+                <div class="nav__link">
+                    <ul class="nav__link__item burger-nav">
+                        <li>dsd</li>
+                    </ul>
+                    <ul class="nav__link__item">
+                        <li><a href="index.html">Главная</a></li>
+                    </ul>
+                    <ul class="nav__link__item">
+                        <li><a href="#">О компании</a></li>
+                    </ul>
+                    <ul class="nav__link__item">
+                        <li class="dropdown">
+                            <a href="office.html" class="dropbtn">Услуги</a>
+                            <div class="dropdown-content">
+                                <div class="dropdown-content-items">
+                                    <div class="office__items__item-col">
+                                        <h3>СОЗДАНИЕ И АДМИНИСТРИРОВАНИЕ БИЗНЕСА</h3>
+                                        <div class="col-office">
+                                            <ul class="title-box">Регистрация юридического лица
+                                                <li>Регистрация (ИП, ЗАО, ОДО, ООО, ЧУП)</li>
+                                                <li>Регистрация филиала</li>
+                                                <li>Открытие иностранного представительства</li>
+                                            </ul>
+                                            <ul class="title-box">Реорганизация юридического лица
+                                                <li>Реорганизация в форме <br>(выделения, преобразования, присоединения, разделения, слияния)</li>
+                                                <li>Реорганизация ООО</li>
+                                            </ul>
+                                            <ul class="title-box">Внесение изменений в устав
+                                                <li>Замена руководителя (директора)</li>
+                                                <li>Изменение видов деятельности</li>
+                                                <li>Изменение наименования</li>
+                                                <li>Изменение размера уставного фонда</li>
+                                                <li>Изменение состава участников</li>
+                                                <li>Смена юридического адреса</li>
+                                                <li>Покупка и продажа бизнеса</li>
+                                            </ul>
+                                            <ul class="title-box">Ликвидация юридического лица
+                                                <li>Ликвидация ИП, ЧУП, ООО</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="office__items__item">
+                                        <h3>СОПРОВОЖДЕНИЕ БИЗНЕС-ДЕЯТЕЛЬНОСТИ</h3>
+                                        <ul class="title-box">Взыскание долгов</ul>
+                                        <ul class="title-box">Составление договоров</ul>
+                                        <ul class="title-box">Кадровое делопроизводство</ul>
+                                        <ul class="title-box">Абонентское юридическое обслуживание</ul>
+                                    </div>
+                                    <div class="office__items__item">
+                                        <h3>ИНФОРМАЦИОННЫЕ ТЕХНОЛОГИИ (IT)</h3>
+                                        <ul class="title-box">Разработка договоров для IT компаний</ul>
+                                        <ul class="title-box">Регистрация прав на программный продукт</ul>
+                                        <ul class="title-box">Регистрация резидентов в ПВТ</ul>
+                                    </div>
+                                    <div class="office__items__item">
+                                        <h3>ЗАЩИТА БИЗНЕСА</h3>
+                                        <ul class="title-box">Защита нарушенных прав</ul>
+                                        <ul class="title-box">Антимонопольное регулирование</ul>
+                                        <ul class="title-box">Недобросовестная конкуренция</ul>
+                                        <ul class="title-box">Защита от подделок</ul>
+                                    </div>
+                                    <div class="office__items__item-col">
+                                        <h3>ИНТЕЛЛЕКТУАЛЬНАЯ СОБСТВЕННОСТЬ</h3>
+                                        <div class="col-office">
+                                            <ul class="title-box">Защита интеллектуальной собственности
+                                                <li>Защита в правоохранительных органах</li>
+                                                <li>Защита в суде</li>
+                                            </ul>
+                                            <ul class="title-box">Распоряжение исключительными правами
+                                                <li>Договор франчайзинга</li>
+                                                <li>Договор залога</li>
+                                            </ul>
+
+                                            <ul class="title-box">Регистрация интеллектуальной собственности
+                                                <li>Защита коммерческой тайны</li>
+                                                <li>Регистрация товарного знака</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="nav__link__item">
+                        <li><a href="#">Цены</a></li>
+                    </ul>
+                    <ul class="nav__link__item">
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </div>
+                <a class="tel" href="tel:+375291110358"><img src="./assets/img/8939958468638.svg" alt="svg+xml">+375(29)111-03-58</a>
+                <button type="submit" class="btn__click">Оставить заявку</button>
             </nav>
         </div>
         <div class="slaid__jobs__items">
             <div class="slaid__jobs__item">
                 <div class="slaid__jobs__item__box">
-                    <div class="jobs__title">Legal service</div>
-                    <div class="jobs__subtitle">Effective work of professionals without delays and interruptions, available to medium and small Businesses</div>
-                    <div class="jobs__text">Registration and liquidation of companies and individual entrepreneurs</div>
-                    <div class="jobs__text">Changes to constituent documents</div>
-                    <div class="jobs__text">Preparation of documents(contracts, claims, complaints, etc.)</div>
-                    <div class="jobs__text">Collection of monetary debts, interest, and seizure</div>
-                    <div class="jobs__text">Claim and claim work</div>
-                    <button class="btn__click jobs__btn">Get a Free consultation right now!
+                    <div class="jobs__title">Юридические услуги</div>
+                    <div class="jobs__subtitle">Эффективная работа <b>профессионалов</b> <br>без задержек и перерывов, доступная среднему и малому Бизнесу</div>
+                    <div class="jobs__text">Регистрация и ликвидация компаний и ИП</div>
+                    <div class="jobs__text">Изменение в учредительные документы</div>
+                    <div class="jobs__text">Подготовка документов (договоры,иски,жалобы и др.)</div>
+                    <div class="jobs__text">Взыскание денежных долгов,процентов,наложение ареста</div>
+                    <div class="jobs__text">Претензионно-исковая работа</div>
+                    <div class="jobs__text">Прочи услуги</div>
+                    <button class="btn__click jobs__btn">Получите Бесплатную консультацию прямо сейчас!
                         <span class="span-top"></span>
                         <span class="span-right"></span>
                         <span class="span-bottom"></span>
                         <span class="span-left"></span>
-                        </button>
+                    </button>
                 </div>
                 <div class="slaid__jobs__item__box">
-                    <div class="jobs__title">All types of accounting services</div>
-                    <div class="jobs__subtitle">A whole team of professionals <b>for the price of one</b> full-time specialist </div>
-                    <div class="jobs__text">Submission of reports(Federal tax service, taxes, reports, declarations)</div>
-                    <div class="jobs__text">Restoration of accounting</div>
-                    <div class="jobs__text">Formation of salary accruals</div>
-                    <div class="jobs__text">Quarterly and annual report</div>
-                    <div class="jobs__text">Import VAT, Federal tax service</div>
-                    <div class="jobs__text">HR accounting and other</div>
-                    <button class="btn__click jobs__btn">Start saving on accounting today!
+                    <div class="jobs__title">Все виды бухгалтерских услуг</div>
+                    <div class="jobs__subtitle">Целая команда профессионалов <b>по цене одного</b> <br> штатного специалиста
+                    </div>
+                    <div class="jobs__text">Сдача отчётности (ФСЗН,налоги,отчеты,декларации)</div>
+                    <div class="jobs__text">Восстановление бухгалтерского учёта</div>
+                    <div class="jobs__text">Формирование начислений З/П</div>
+                    <div class="jobs__text">Квартальный и годовой отчет</div>
+                    <div class="jobs__text">Ввозной НДС, ФСЗН</div>
+                    <div class="jobs__text">Кадровый учет и другое</div>
+                    <button class="btn__click jobs__btn">Начните экономить на бухгалтерском учёте уже сегодня!
                         <span class="span-top"></span>
                         <span class="span-right"></span>
                         <span class="span-bottom"></span>
                         <span class="span-left"></span>
-                        </button>
+                    </button>
                 </div>
             </div>
         </div>
@@ -100,38 +185,38 @@
     <main>
 
         <div class="clock-time">
-            <script type="text/javascript">
+            <script>
                 // <![CDATA[
                 day = new Date();
                 hour = day.getHours();
-                if (hour >= 5 && hour < 12) greeting = "Good morning";
+                if (hour >= 5 && hour < 12) greeting = "Доброе утро";
                 else {
-                    if (hour >= 12 && hour < 18) greeting = "Good afternoon";
+                    if (hour >= 12 && hour < 18) greeting = "Добрый день";
                     else {
-                        if (hour >= 18 && hour < 24) greeting = "Good evening";
+                        if (hour >= 18 && hour < 24) greeting = "Добрый вечер";
                         else {
-                            if (hour >= 0 && hour < 5) greeting = "Good night";
+                            if (hour >= 0 && hour < 5) greeting = "Доброй ночи";
                         }
                     }
                 }
                 document.write(greeting);
             </script>
             ! Сегодня
-            <script type="text/javascript">
+            <script>
                 // <![CDATA[
                 // <![CDATA[
                 var d = new Date();
 
-                var day = new Array("Sunday", "Monday", "Tuesday",
-                    "Wednesday", "Thursday", "Friday", "Saturday");
+                var day = new Array("Воскресенье", "Понедельник", "Вторник",
+                    "Среда", "Четверг", "Пятница", "Суббота");
 
-                var month = new Array("January", "February", "March", "April's", "May", "June's",
-                    "July's", "August", "September", "October's", "November's", "December's");
+                var month = new Array("января", "февраля", "марта", "апреля", "мая", "июня",
+                    "июля", "августа", "сентября", "октября", "ноября", "декабря");
 
                 document.write(day[d.getDay()] + " " + d.getDate() + " " + month[d.getMonth()] +
                     " " + d.getFullYear() + " ");
             </script>
-            <script type="text/javascript">
+            <script>
                 setInterval(function() {
                     date = new Date(),
                         h = date.getHours(),
@@ -146,12 +231,15 @@
             <span id="time">00:00:00</span>
         </div>
 
-        <div class="wrapper">
-            <div class="abouts__title">Limited liability company "Legal Choice"</div>
-            <div class="abouts__subtitle">Company "Legal Choice" provides a wide range of services in the field of legal and accounting support for companies of various forms of ownership. </br>The main specialization of the company is accounting and legal support of business, registration
-                turn-key companies, as well as the liquidation of enterprises.</br>It is necessary to choose the most appropriate organizational and legal form of a legal entity, to think over the economic policy, to determine the accounting and legal
-                support before the beginning doing business. If you entrust all these operations to one company that employs professionals, then at the initial stage, you can avoid further difficulties and enjoy running your business.</div>
+
+        <div class="wrapper wow zoomInUp">
+            <div class="abouts__title">ООО "Лигал Чойз"</div>
+            <div class="abouts__subtitle">Компания "Лигал Чойз" оказывает широкий спектр услуг в области юридического и бухгалтерского сопровождения компаний различных форм собственности. </br>Основная специализация компании - бухгалтерская и правовая поддержка бизнеса, регистрация
+                фирм под ключ, а также ликвидация предприятий. </br>Выбрать наиболее подходящую организационно-правовую форму юридического лица, продумать хозяйственную политику, определиться с бухгалтерским и юридическим сопровождением нужно еще до начала
+                ведения бизнеса. Если доверить все эти операции одной компании, в которой работают профессионалы своего дела, то уже на начальном этапе, можно избежать дальнейших трудностей и наслаждаться ведением своего бизнеса.
+            </div>
         </div>
+
         <!-- slaiderTop -->
         <div class="slaider">
             <div class="swiper-container main-slider loading">
@@ -254,176 +342,221 @@
             </div>
         </div>
 
+
+
         <!-- usluga -->
         <div class="conteiner">
-            <h2 class="conteiner__title">How do we work?</h2>
+            <h2 class="conteiner__title">Как мы работаем?</h2>
             <div class="box-prace">
                 <section>
-                    <button class="box-prace__btn" id="Sw">Conducting negotiations, concluding a contract</button>
-                    <button class="box-prace__btn" id="Lp">Setting up accounting</button>
-                    <button class="box-prace__btn" id="Sc">Appointment of an accountant and bookkeeping</button>
-                    <button class="box-prace__btn" id="Ip">Preparation and submission of reports</button>
-                    <button class="box-prace__btn" id="Ir">Archiving of documents</button>
-                    <button class="box-prace__btn" id="Ik">Internal audit</button>
-                    <button type="submit" class="btn__click prace-text__btn">Submit a request</button>
+                    <button class="box-prace__btn" id="Sw">Проведение переговоров, заключение договора</button>
+                    <button class="box-prace__btn" id="Lp">Постановка бухгалтерского учета</button>
+                    <button class="box-prace__btn" id="Sc">Назначение бухгалтера и ведение бухучета</button>
+                    <button class="box-prace__btn" id="Ip">Подготовка и предоставление отчетности</button>
+                    <button class="box-prace__btn" id="Ir">Архивирование документов</button>
+                    <button class="box-prace__btn" id="Ik">Внутренний аудит</button>
+                    <button type="submit" class="btn__click prace-text__btn">Оставить заявку</button>
                 </section>
                 <div class="box-prace__items">
-                    <h3 class="box-item__text title-item" id="sW">Stages</h3>
+                    <h3 class="box-item__text title-item" id="sW">Этапы</h3>
                     <div class="box-prace__item">
-                        <video src="./assets/img/Atoms.mp4" autoplay loop></video>
+                        <video src="./assets/img/Atoms.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' autoplay loop></video>
                         <div class="box__title-item" id="sw">
-                            <p class="prace-text">We get information about your company, agree on the terms of cooperation and enter into a contract</p>
+                            <p class="prace-text">Получаем информацию о вашей компании, согласуем условия сотрудничества и заключаем договор</p>
                         </div>
                     </div>
                     <div class="box-prace__item">
                         <div class="box__title-item" id="lp">
-                            <p class="prace-text">Determine the areas of accounting, provided the scripts to work, the state, and determine the best system of taxation</p>
+                            <p class="prace-text">Определяем участки бухучета, предоставляем скрипты для работы, формируем штат, определяем оптимальную систему налогообложения</p>
                         </div>
                     </div>
                     <div class="box-prace__item">
                         <div class="box__title-item" id="sc">
-                            <p class="prace-text">We appoint a personal accountant, chief accountant and auditor. We assign responsibilities and deadlines. You provide the primary documents, and the accountant processes them in the accounting database</p>
+                            <p class="prace-text">Назначаем персонального бухгалтера, главного бухгалтера и аудитора. Распределяем обязанности и сроки исполнения. Вы предоставляете первичные документы, а бухгалтер их обрабатывает в учетной базе</p>
                         </div>
                     </div>
                     <div class="box-prace__item">
                         <div class="box__title-item" id="ip">
-                            <p class="prace-text">The chief accountant checks the work of the personal accountant on a monthly basis, generates quarterly financial results, calculates taxes, and generates tax returns and reports to government agencies</p>
+                            <p class="prace-text">Главный бухгалтер ежемесячно проверяет работу персонального бухгалтера, ежеквартально формирует финансовый результат, начисляет налоги, формирует налоговые декларации и отчеты в госорганы</p>
                         </div>
                     </div>
                     <div class="box-prace__item">
                         <div class="box__title-item" id="ir">
-                            <p class="prace-text">The personal accountant makes an inventory of primary accounting documents, makes registers of primary accounting documents and sends them to you</p>
+                            <p class="prace-text">Персональный бухгалтер проводит инвентаризацию первичных бухгалтерских документов, составляет реестры первичных бухгалтерских документов и передает их вам</p>
                         </div>
                     </div>
                     <div class="box-prace__item">
                         <div class="box__title-item" id="ik">
-                            <p class="prace-text">Once a year we conduct an internal audit of your company's accounting and tax reports</p>
+                            <p class="prace-text">Раз в год мы проводим внутренний аудит бухгалтерской и налоговой отчетности вашей компании</p>
                         </div>
                     </div>
                 </div>
+            </div>
+
+            <!-- mobale version -->
+            <div class="box-mobale__items">
+                <ul class="box-mobale">
+                    <li class="mobale wow flipdown">
+                        <input type="checkbox" checked>
+                        <i></i>
+                        <h3 class="box-prace__mobale">Проведение переговоров, заключение договора</h3>
+                        <p class="prace-mobale">Получаем информацию о вашей компании, согласуем условия сотрудничества и заключаем договор</p>
+                    </li>
+                    <li class="mobale wow flipdown">
+                        <input type="checkbox" checked>
+                        <i></i>
+                        <h3 class="box-prace__mobale">Постановка бухгалтерского учета</h3>
+                        <p class="prace-mobale">Определяем участки бухучета, предоставляем скрипты для работы, формируем штат, определяем оптимальную систему налогообложения</p>
+                    </li>
+                    <li class="mobale wow flipdown">
+                        <input type="checkbox" checked>
+                        <i></i>
+                        <h3 class="box-prace__mobale">Назначение бухгалтера и ведение бухучета</h3>
+                        <p class="prace-mobale">Назначаем персонального бухгалтера, главного бухгалтера и аудитора. Распределяем обязанности и сроки исполнения. Вы предоставляете первичные документы, а бухгалтер их обрабатывает в учетной базе</p>
+                    </li>
+                    <li class="mobale wow flipdown">
+                        <input type="checkbox" checked>
+                        <i></i>
+                        <h3 class="box-prace__mobale">Подготовка и предоставление отчетности</h3>
+                        <p class="prace-mobale">Главный бухгалтер ежемесячно проверяет работу персонального бухгалтера, ежеквартально формирует финансовый результат, начисляет налоги, формирует налоговые декларации и отчеты в госорганы</p>
+                    </li>
+                    <li class="mobale wow flipdown">
+                        <input type="checkbox" checked>
+                        <i></i>
+                        <h3 class="box-prace__mobale">Архивирование документов</h3>
+                        <p class="prace-mobale">Персональный бухгалтер проводит инвентаризацию первичных бухгалтерских документов, составляет реестры первичных бухгалтерских документов и передает их вам</p>
+                    </li>
+                    <li class="mobale wow flipdown">
+                        <input type="checkbox" checked>
+                        <i></i>
+                        <h3 class="box-prace__mobale">Внутренний аудит</h3>
+                        <p class="prace-mobale">Раз в год мы проводим внутренний аудит бухгалтерской и налоговой отчетности вашей компании</p>
+                    </li>
+                </ul>
             </div>
         </div>
 
 
         <!-- service -->
         <div class="servis ">
-            <div class="servis__title">Tariff plan</div>
+            <div class="servis__title">Тарифные планы бухгалтерских услуг</div>
             <div class="servis__items">
                 <div class="servis__items__item  wow zoomIn">
                     <div class="front">
-                        <span class="spanh3">Service</span>
-                        <p class="servis__prace">THE SIMPLIFIED TAX SYSTEM WITHOUT VAT</p>
-                        <p class="servis__prace__sale">From 150p</p>
+                        <span class="spanh3">Обслуживание </span>
+                        <p class="servis__prace">УСН БЕЗ НДС</p>
+                        <p class="servis__prace__sale">От 150p</p>
                     </div>
                     <div class="back">
                         <div class="prace__back">
                             <ul>
-                                <li>Processing and systematization of primary accounting documents</li>
-                                <li>Keeping a Ledger of income and expenses or keeping records in the 1C program</li>
-                                <li>Submission of tax and statistical reports (annual and quarterly)</li>
-                                <li>Consultations</li>
-                                <li>Personnel records (PU-1, PU-2, PU-3)</li>
+                                <li>Обработка и систематизация первичных документов бухгалтерского учета</li>
+                                <li>Ведение книги учета доходов и расходов или ведение учета в программе 1С</li>
+                                <li>Сдача налоговой и статистической отчетности (годовой и квартальной)</li>
+                                <li>Консультации</li>
+                                <li>Кадровый учет (ПУ-1, ПУ-2, ПУ-3)</li>
                             </ul>
                         </div>
                     </div>
                 </div>
                 <div class="servis__items__item wow zoomIn">
                     <div class="front">
-                        <span class="spanh3">Service</span>
-                        <p class="servis__prace">USN WITH VAT</p>
-                        <p class="servis__prace__sale">From 190p</p>
+                        <span class="spanh3">Обслуживание</span>
+                        <p class="servis__prace">УСН С НДС</p>
+                        <p class="servis__prace__sale">От 190p</p>
                     </div>
                     <div class="back">
                         <div class="prace__back">
                             <ul>
-                                <li>Consultations</li>
-                                <li>Processing and systematization of primary accounting documents</li>
-                                <li>Keeping a Ledger of income and expenses or keeping records in the 1C program</li>
-                                <li>Exhibiting and signing ESCF</li>
-                                <li>Submission of tax and statistical reports (annual and quarterly)</li>
-                                <li>Personnel records (PU-1, PU-2, PU-3)</li>
+                                <li>Консультации;</li>
+                                <li>Обработка и систематизация первичных документов бухгалтерского учета</li>
+                                <li>Ведение книги учета доходов и расходов или ведение учета в программе 1С</li>
+                                <li>Выставление и подписание ЭСЧФ</li>
+                                <li>Сдача налоговой и статистической отчетности (годовой и квартальной)</li>
+                                <li>Кадровый учет (ПУ-1, ПУ-2, ПУ-3)
+                                </li>
                             </ul>
                         </div>
                     </div>
                 </div>
                 <div class="servis__items__item wow zoomIn">
                     <div class="front">
-                        <span class="spanh3">Service</span>
-                        <p class="servis__prace">SPEs</p>
-                        <p class="servis__prace__sale">From 250p</p>
+                        <span class="spanh3">Обслуживание</span>
+                        <p class="servis__prace">ОСН</p>
+                        <p class="servis__prace__sale">От 250p</p>
                     </div>
                     <div class="back">
                         <div class="prace__back">
                             <ul>
-                                <li>Accounting in the 1C program</li>
-                                <li>Exhibiting and signing ESCF</li>
-                                <li>Processing and systematization of primary accounting documents</li>
-                                <li>Consultations</li>
-                                <li>Personnel records (PU-1, PU-2, PU-3)</li>
-                                <li>Submission of reports (annual and quarterly)</li>
+                                <li>Ведение учета в программе 1С</li>
+                                <li>Выставление и подписание ЭСЧФ</li>
+                                <li>Обработка и систематизация первичных документов бухгалтерского учета</li>
+                                <li>Консультации</li>
+                                <li>Кадровый учет (ПУ-1, ПУ-2, ПУ-3)</li>
+                                <li>Сдача отчетности (годовой и квартальной)</li>
                             </ul>
                         </div>
                     </div>
                 </div>
                 <div class="servis__items__item wow zoomIn">
                     <div class="front">
-                        <span class="spanh3">Service</span>
-                        <p class="servis__prace">OSN WITH FEA</p>
-                        <p class="servis__prace__sale">From 300p</p>
+                        <span class="spanh3">Обслуживание </span>
+                        <p class="servis__prace">ОСН С ВЭД</p>
+                        <p class="servis__prace__sale">От 300p</p>
                     </div>
                     <div class="back">
                         <div class="prace__back">
                             <ul>
-                                <li>Processing and systematization of primary accounting documents</li>
-                                <li>Accounting in the 1C program</li>
-                                <li>Exhibiting and signing ESCF</li>
-                                <li>Delivery (annual and quarterly)</li>
-                                <li>Preparation of appropriate documentation and submission of taxes for foreign trade activities</li>
-                                <li>Personnel records (PU-1, PU-2, PU-3)</li>
-                                <li>Consultations</li>
+                                <li>Обработка и систематизация первичных документов бухгалтерского учета</li>
+                                <li>Ведение учета в программе 1С</li>
+                                <li>Выставление и подписание ЭСЧФ</li>
+                                <li>Сдача (годовой и квартальной)</li>
+                                <li>Составление соответствующей документации и сдача налогов при ВЭД</li>
+                                <li>Кадровый учет (ПУ-1, ПУ-2, ПУ-3)</li>
+                                <li>Консультации</li>
                             </ul>
                         </div>
                     </div>
                 </div>
                 <div class="servis__items__item wow zoomIn">
                     <div class="front">
-                        <span class="spanh3">Rate</span>
-                        <p class="servis__prace">Minimum</p>
-                        <p class="servis__prace__sale">From 50p</p>
+                        <span class="spanh3">Тариф</span>
+                        <p class="servis__prace">Минимальный</p>
+                        <p class="servis__prace__sale">От 50p</p>
                     </div>
                     <div class="back">
                         <div class="prace__back">
                             <ul>
-                                <li>Consultations</li>
-                                <li>Submission of reports (annual, quarterly)</li>
-                                <li>Personnel records (PU-1, PU-2, PU-3)</li>
+                                <li>Консультации</li>
+                                <li>Сдача сдача отчетности (годовой, квартальной)</li>
+                                <li>Кадровый учет (ПУ-1, ПУ-2, ПУ-3)</li>
                             </ul>
                         </div>
                     </div>
                 </div>
                 <div class="servis__items__item wow zoomIn">
                     <div class="front">
-                        <span class="spanh3">Rate</span>
-                        <p class="servis__prace">Additional Services</p>
+                        <span class="spanh3">Тариф</span>
+                        <p class="servis__prace">Доп Услуги</p>
                     </div>
                     <div class="back">
                         <div class="prace__back">
                             <ul>
-                                <li>Preparation of accounting policies</li>
-                                <li>Restoration of accounting</li>
-                                <li>Submission of the balance sheet</li>
-                                <li>The preparation for liquidation</li>
-                                <p class="servis__prace__sale ref">Is calculated individually</p>
+                                <li>Составление учетной политики.</li>
+                                <li>Восстановление бухгалтерского учета</li>
+                                <li>Сдача бухгалтерского баланса</li>
+                                <li>Подготовка к ликвидации</li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </div>
-            <button type="submit" class="btn__click clicktop">Leave a request for consultation</button>
+            <button type="submit" class="btn__click clicktop">Оставить заявку на консультацию</button>
         </div>
 
 
-        <div class="clienteff">
+        <div class="clienteff wow">
+            <div class="clienteff__title">Мы работаем для вас 24/7</div>
             <div class="items">
                 <div class="item wow anim">
                     <img src="./assets/img/like.svg" alt="">
@@ -443,37 +576,40 @@
                 </div>
             </div>
             <div class="items text">
-                <div class="text">Positive feedback</div>
-                <div class="text">Hour of work</div>
-                <div class="text">Satisfied client</div>
-                <div class="text">Mug of coffee</div>
+                <div class="text">Положительных отзывов</div>
+                <div class="text">Часов работы</div>
+                <div class="text">Довольных клиентов</div>
+                <div class="text">Кружек кофе</div>
             </div>
         </div>
 
         <!-- bouts -->
         <div class="bouts">
-            <div class="bouts__title">WHY ARE WE CHOSEN?</div>
+            <div class="bouts__title">ПОЧЕМУ НАС ВЫБИРАЮТ?</div>
             <div class="bouts__items">
                 <div class="bouts__items__box wow zoomIn">
-                    <p class="text-box">WE WORK REMOTELY, YOU SAVE TIME</p>
-                    <span class="span__text">Remote communication with a personal accountant
-                        Document exchange 
-                        Terminal access to 1C
-                        </span>
+                    <p class="text-box">МЫ РАБОТАЕМ УДАЛЕННО, ВЫ ЭКОНОМИТЕ ВРЕМЯ</p>
+                    <span class="span__text">Удаленное общение с персональным бухгалтером
+                        Обмен документами
+                        Терминальный доступ к 1С
+                    </span>
                 </div>
                 <div class="bouts__items__box wow zoomIn">
-                    <p class="bouts__items__box__text">WE OPTIMIZE PROCESSES, YOU SAVE MONEY</p>
-                    <span class="span__text">We analyze your company's activities and help you optimize your business processes</span>
+                    <p class="bouts__items__box__text">МЫ ОПТИМИЗИРУЕМ ПРОЦЕССЫ, ВЫ ЭКОНОМИТЕ ДЕНЬГИ</p>
+                    <span class="span__text">Мы анализируем деятельность вашего предприятия и помогаем оптимизировать
+                        бизнес-процессы</span>
                 </div>
                 <div class="bouts__items__box wow zoomIn">
-                    <p class="bouts__items__box__text">WE TRAIN PERSONNEL, YOU GET A QUALITY SERVICE</p>
-                    <span class="span__text">Our specialists are qualified accountants, auditors and HR specialists 
-                        We provide continuous additional training for our employees
-                        </span>
+                    <p class="bouts__items__box__text">МЫ ОБУЧАЕМ КАДРЫ, ВЫ ПОЛУЧАЕТЕ КАЧЕСТВЕННУЮ УСЛУГУ</p>
+                    <span class="span__text">Наши специалисты - квалифицированные бухгалтера, аудиторы и кадровики
+                        Мы проводим постоянное дополнительное обучение для своих сотрудников
+                    </span>
                 </div>
                 <div class="bouts__items__box wow zoomIn">
-                    <p class="bouts__items__box__text">WE ARE RESPONSIBLE FOR ERRORS AND THE CONFIDENTIALITY OF YOUR INFORMATION</p>
-                    <span class="span__text">We guarantee you an attentive attitude to all issues of your business, expertise and competence.</span>
+                    <p class="bouts__items__box__text">МЫ НЕСЕМ ОТВЕТСТВЕННОСТЬ ЗА ОШИБКИ И КОНФИДЕНЦИАЛЬНОСТЬ ВАШЕЙ ИНФОРМАЦИИ
+                    </p>
+                    <span class="span__text">Мы гарантируем вам внимательное отношение ко всем вопросам вашего бизнеса,
+                        эксcпертность и компетентность.</span>
                 </div>
             </div>
         </div>
@@ -592,7 +728,6 @@
                         <option value="" class="selected">более 100</option>
                     </select>
                 </div>
-
 
                 <div class="form-group">
                     <label for="page-size">Приходные накладные РБ 
@@ -728,15 +863,13 @@
                 <h4 class="aio-icon-title">Наши Телефоны:</h4>
                 <div class="aio-icon-description">
                     <img src="./assets/img/8939958468638.svg" alt="svg+xml">+375 (29) 111-03-58
-                    <br><img src="./assets/img/8939958468638.svg" alt="svg+xml">+375 (29) 260-08-87</div>
+                    <br><img src="./assets/img/8939958468638.svg" alt="svg+xml">+375 (29) 140-17-85</div>
             </div>
 
             <span class="clearfix"></span>
 
 
         </div>
-
-
 
 
 
@@ -762,7 +895,8 @@
         <div class="copy">Дизайн и создание сайта - <a href="#">Pixar.by</a> © 2020</div>
     </div>
 
-    </div>
+
+    <!-- sripts -->
     <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js'></script>
     <script src="./js/jquery.js"></script>
     <script src="./js/main.js"></script>
@@ -773,6 +907,8 @@
         new WOW().init();
     </script>
     <script src="./js/slaider.js"></script>
+
+
 
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript">
@@ -791,7 +927,7 @@
             accurateTrackBounce: true
         });
     </script>
-    <noscript><div><img src="https://mc.yandex.ru/watch/57345202" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <noscript><div><img src="https://mc.yandex.ru/watch/57348424" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
     <!-- /Yandex.Metrika counter -->
 
 </body>

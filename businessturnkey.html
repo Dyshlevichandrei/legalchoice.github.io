@@ -8,7 +8,9 @@
     <meta name="referrer" content="origin">
     <link rel="icon" href="./assets/img/favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/style.css">
+    <meta name="keywords " content=" бухгалтерские услуги, бухгалтер аудитор, юристы, юрист онлайн, юрист компании, юрист консультант, юридические услуги, юридические акты, юридические вопросы,юридические документы.">
     <meta name="description" content="Подготовка документов. Согласование наименования организации. Реклама.">
     <title>Открытие бизнеса под ключ</title>
 
@@ -31,7 +33,7 @@
                 <form action="./core/send.php" method="POST" class="form-submit">
                     <div class="input-span name-icon"><input type="text" name="name" placeholder="Введите имя" required>
                     </div>
-                    <div class="input-span name-icon mail-for"><input type="text" name="e-mail" placeholder="Введите e-mail" required></div>
+                    <!-- <div class="input-span name-icon mail-for"><input type="text" name="e-mail" placeholder="Введите e-mail" required></div> -->
                     <div class="input-span phone-icon"><input type="text" name="phone" placeholder="Введите телефон" required></div>
                     <div class="textarea"><textarea name="text" placeholder="*Текст сообщения" required cols="30" rows="7"></textarea></div>
                     <input type="hidden" name="type" value=""> <button class="submit-button"></button>
@@ -62,87 +64,28 @@
                         <li><a href="index.html">Главная</a></li>
                     </ul>
                     <ul class="nav__link__item">
-                        <li class="dropdown">
-                            <a href="office.html" class="dropbtn">Услуги</a>
-                            <div class="dropdown-content">
-                                <div class="dropdown-content-items">
-                                    <div class="office__items__item-col">
-                                        <h3>СОЗДАНИЕ И АДМИНИСТРИРОВАНИЕ БИЗНЕСА</h3>
-                                        <div class="col-office">
-                                            <ul class="title-box">Регистрация юридического лица
-                                                <li>Регистрация (ИП, ЗАО, ОДО, ООО, ЧУП)</li>
-                                                <li>Регистрация филиала</li>
-                                                <li>Открытие иностранного представительства</li>
-                                            </ul>
-                                            <ul class="title-box">Реорганизация юридического лица
-                                                <li>Реорганизация в форме <br>(выделения, преобразования, присоединения, разделения, слияния)</li>
-                                                <li>Реорганизация ООО</li>
-                                            </ul>
-                                            <ul class="title-box">Внесение изменений в устав
-                                                <li>Замена руководителя (директора)</li>
-                                                <li>Изменение видов деятельности</li>
-                                                <li>Изменение наименования</li>
-                                                <li>Изменение размера уставного фонда</li>
-                                                <li>Изменение состава участников</li>
-                                                <li>Смена юридического адреса</li>
-                                                <li>Покупка и продажа бизнеса</li>
-                                            </ul>
-                                            <ul class="title-box">Ликвидация юридического лица
-                                                <li>Ликвидация ИП, ЧУП, ООО</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="office__items__item">
-                                        <h3>СОПРОВОЖДЕНИЕ БИЗНЕС-ДЕЯТЕЛЬНОСТИ</h3>
-                                        <ul class="title-box">Взыскание долгов</ul>
-                                        <ul class="title-box">Составление договоров</ul>
-                                        <ul class="title-box">Кадровое делопроизводство</ul>
-                                        <ul class="title-box">Абонентское юридическое обслуживание</ul>
-                                    </div>
-                                    <div class="office__items__item">
-                                        <h3>ИНФОРМАЦИОННЫЕ ТЕХНОЛОГИИ (IT)</h3>
-                                        <ul class="title-box">Разработка договоров для IT компаний</ul>
-                                        <ul class="title-box">Регистрация прав на программный продукт</ul>
-                                        <ul class="title-box">Регистрация резидентов в ПВТ</ul>
-                                    </div>
-                                    <div class="office__items__item">
-                                        <h3>ЗАЩИТА БИЗНЕСА</h3>
-                                        <ul class="title-box">Защита нарушенных прав</ul>
-                                        <ul class="title-box">Антимонопольное регулирование</ul>
-                                        <ul class="title-box">Недобросовестная конкуренция</ul>
-                                        <ul class="title-box">Защита от подделок</ul>
-                                    </div>
-                                    <div class="office__items__item-col">
-                                        <h3>ИНТЕЛЛЕКТУАЛЬНАЯ СОБСТВЕННОСТЬ</h3>
-                                        <div class="col-office-row">
-                                            <ul class="title-box">Защита интеллектуальной собственности
-                                                <li>Защита в правоохранительных органах</li>
-                                                <li>Защита в суде</li>
-                                            </ul>
-                                            <ul class="title-box">Распоряжение исключительными правами
-                                                <li>Договор франчайзинга</li>
-                                                <li>Договор залога</li>
-                                            </ul>
-                                            <ul class="title-box">Регистрация интеллектуальной собственности
-                                                <li>Защита коммерческой тайны</li>
-                                                <li>Регистрация товарного знака</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                        <li>
+                            <a href="office.html">Услуги</a>
                         </li>
                     </ul>
                     <ul class="nav__link__item">
                         <li><a href="prace.html">Цены</a></li>
                     </ul>
                     <ul class="nav__link__item">
-                        <li><a href="#">Контакты</a></li>
+                        <li><a href="businessturnkey.html">Бизнес "Под ключ"</a></li>
+                    </ul>
+                    <ul class="nav__link__item">
+                        <li><a href="calc.html">Калькулятор</a></li>
                     </ul>
                 </div>
+                <button type="submit" class="btn__click mobale">Оставить заявку</button>
+            </div>
+            <div class="box-tel">
                 <a class="tel" href="tel:+375291110358"><img src="./assets/img/8939958468638.svg" alt="svg+xml">+375(29)111-03-58</a>
                 <a class="tel" href="tel:+375291401785"><img src="./assets/img/8939958468638.svg" alt="svg+xml">+375(29)140-17-85</a>
-                <button type="submit" class="btn__click mobale">Оставить заявку</button>
+                <a href="https://www.facebook.com/LegalChoice.by" class="socr"><img src="./assets/img/facebook.png" alt="vk">Facebook</a>
+                <a href="https://vk.com/legalchoice" class="socr"><img src="./assets/img/vk.png" alt="vk">Вконтакте</a>
+                <a href="https://www.instagram.com/legal_choice/" class="socr"><img src="./assets/img/instagram.png" alt="logoinstagram">Instagram</a>
             </div>
         </div>
     </header>
@@ -242,7 +185,7 @@
 
         <!-- topic -->
         <div class="topic">
-            <div class="topic__title">Остались вопросы? Напишите нам</div>
+            <div class="topic__title">Остались вопросы? <br>Напишите нам</div>
             <div class="topic__subtitle">Мы здесь, чтобы помочь вам</div>
             <form action="./core/send.php" method="POST" class="form-submit topic-form">
                 <div class="section-form">
@@ -257,6 +200,15 @@
                 </div>
                 <button type="submit" class="submit-button btn__topic">Отправить</button>
             </form>
+            <div class="social">
+                <div class="social__title"></div>
+                <button class="btn"><img src="./assets/img/messange.svg" alt=""></button>
+                <a href="https://www.facebook.com/LegalChoice.by"><img class="social__icon fa active" src="./assets/img/facebook.svg" alt="svg+xml"></a>
+                <a href="https://www.instagram.com/legal_choice"><img class="social__icon inst active" src="./assets/img/instagram.svg" alt="svg+xml"></a>
+                <a href="https://join.skype.com/SSv7a8bk4AM2"><img class="social__icon skype active" src="./assets/img/skype.svg" alt="svg+xml"></a>
+                <a href="https://t.me/joinchat/AAAAAFLT5nGgBgdqZBMXjA"><img class="social__icon telegram active" src="./assets/img/telegram.svg" alt="svg+xml"></a>
+                <a href="https://vk.com/legalchoice"><img class="social__icon vk active" src="./assets/img/vk.svg" alt="svg+xml"></a>
+            </div>
         </div>
 
 
@@ -344,15 +296,6 @@
 
 
         <div class="topic-contacts">
-            <div class="social">
-                <div class="social__title"></div>
-                <button class="btn "><img src="./assets/img/messange.svg" alt=""></button>
-                <a href="#"><img class="social__icon fa active" src="./assets/img/facebook.svg" alt="svg+xml"></a>
-                <a href="#"><img class="social__icon inst active" src="./assets/img/instagram.svg " alt="svg+xml"></a>
-                <a href="#"><img class="social__icon skype active" src="./assets/img/skype.svg " alt="svg+xml"></a>
-                <a href="#"><img class="social__icon telegram active" src="./assets/img/telegram.svg " alt="svg+xml"></a>
-                <a href="#"><img class="social__icon vk active" src="./assets/img/vk.svg " alt="svg+xml"></a>
-            </div>
             <div class="topic__title-contacts-info">ООО «Лигал Чойз» <br>УНП 192378104, лицензия № 02240/2449 <br>на право осуществления деятельности на оказание юридических услуг</div>
             <div class="ico-wrap"> <i class="fa fa-map-marker ico-contact"></i>
             </div>
@@ -397,6 +340,13 @@
     <div class="footer">
         <div class="footer__text">Информация, представленная на сайте не является договором публичной оферты © 2018­-2020
         </div>
+        <div class="box-tel box-tel-bottom">
+            <a href="https://www.facebook.com/LegalChoice.by" class="socr"><img src="./assets/img/facebook.png" alt="vk">Facebook</a>
+            <a href="https://vk.com/legalchoice" class="socr"><img src="./assets/img/vk.png" alt="vk">Вконтакте</a>
+            <a href="https://www.instagram.com/legal_choice/" class="socr"><img src="./assets/img/instagram.png" alt="logoinstagram">Instagram</a>
+            <a class="tel" href="tel:+375291110358"><img src="./assets/img/8939958468638.svg" alt="svg+xml">+375(29)111-03-58</a>
+            <a class="tel" href="tel:+375291401785"><img src="./assets/img/8939958468638.svg" alt="svg+xml">+375(29)140-17-85</a>
+        </div>
         <div class="copy">Дизайн и создание сайта - <a href="#">Pixar.by</a> © 2020</div>
     </div>
 
@@ -429,6 +379,7 @@
                     left:-9999px;" alt=""/></div>
         </noscript>
     <!-- /Yandex.Metrika counter -->
+    <div><a href="#" class="scrollup">Наверх</a></div>
 
 </body>
 

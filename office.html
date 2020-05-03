@@ -8,11 +8,11 @@
     <meta name="referrer" content="origin">
     <link rel="icon" href="./assets/img/favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/style.css">
-    <meta name="description" content="Подготовка документов (договоры,иски,жалобы и др.). 
-     Сдача отчётности (ФСЗН,налоги,отчеты,декларации). 
-     Восстановление бухгалтерского учёта.">
-    <title>Бухгалтерские услуги в Минске. Юридические услуги в Минске</title>
+    <meta name="description" content="Бухгалтерские услуги описание. Юридические услуги. Цены на услуги бухгалтера и юриста.">
+    <meta name="keywords " content="бухгалтерия, бухгалтерский учет, бухгалтерский баланс, бухгалтерские услуги, бухгалтер аутсорсинг, бухгалтер аудитор, юристы, юрист онлайн, юрист компании, юрист консультант, юридические услуги, юридические акты, юридические вопросы,юридические документы.">
+    <title>Цены на бухгалтерские и юридические услуги в Минске</title>
 
 </head>
 
@@ -32,7 +32,7 @@
                 <h3 class="form-text_title">Заполните форму</h3>
                 <form action="./core/send.php" method="POST" class="form-submit">
                     <div class="input-span name-icon"><input type="text" name="name" placeholder="Введите имя" required></div>
-                    <div class="input-span name-icon mail-for"><input type="text" name="e-mail" placeholder="Введите e-mail" required></div>
+                    <!-- <div class="input-span name-icon mail-for"><input type="text" name="e-mail" placeholder="Введите e-mail" required></div> -->
                     <div class="input-span phone-icon"><input type="text" name="phone" placeholder="Введите телефон" required></div>
                     <div class="textarea"><textarea name="text" placeholder="*Текст сообщения" required cols="30" rows="7"></textarea></div>
                     <input type="hidden" name="type" value=""> <button class="submit-button"></button>
@@ -63,18 +63,28 @@
                         <li><a href="index.html">Главная</a></li>
                     </ul>
                     <ul class="nav__link__item">
-                        <li><a href="office.html">Услуги</a></li>
+                        <li>
+                            <a href="office.html">Услуги</a>
+                        </li>
                     </ul>
                     <ul class="nav__link__item">
                         <li><a href="prace.html">Цены</a></li>
                     </ul>
                     <ul class="nav__link__item">
-                        <li><a href="#">Контакты</a></li>
+                        <li><a href="businessturnkey.html">Бизнес "Под ключ"</a></li>
+                    </ul>
+                    <ul class="nav__link__item">
+                        <li><a href="calc.html">Калькулятор</a></li>
                     </ul>
                 </div>
+                <button type="submit" class="btn__click mobale">Оставить заявку</button>
+            </div>
+            <div class="box-tel">
                 <a class="tel" href="tel:+375291110358"><img src="./assets/img/8939958468638.svg" alt="svg+xml">+375(29)111-03-58</a>
                 <a class="tel" href="tel:+375291401785"><img src="./assets/img/8939958468638.svg" alt="svg+xml">+375(29)140-17-85</a>
-                <button type="submit" class="btn__click mobale">Оставить заявку</button>
+                <a href="https://www.facebook.com/LegalChoice.by" class="socr"><img src="./assets/img/facebook.png" alt="vk">Facebook</a>
+                <a href="https://vk.com/legalchoice" class="socr"><img src="./assets/img/vk.png" alt="vk">Вконтакте</a>
+                <a href="https://www.instagram.com/legal_choice/" class="socr"><img src="./assets/img/instagram.png" alt="logoinstagram">Instagram</a>
             </div>
         </div>
     </header>
@@ -83,150 +93,324 @@
 
 
         <div class="office-prace">
-            <div class="office-prace__item">Бухгалтерские услуги</div>
-            <ul class="office-prace__list">
-                <li>
-                    <input type="checkbox" checked>
-                    <i></i>
-                    <h2 class="office-prace__list-item">Ведение бухгалтерского учета</h2>
-                    <p class="office-prace__list-item__text">Клиент предоставляет все необходимые первичные документы. К ним относятся: накладные; акты выполненных работ; трудовые договоры, заключенные с работниками; документы по приему и расходованию наличных денежных средств; документация
-                        по начислению заработной платы; договоры купли-продажи, поставок и услуг; банковские выписки; документы по приобретенным средствам, нематериальным и прочим активам; приказы о внесении изменений в штатное расписание.
-                    </p>
-                </li>
-            </ul>
-            <ul class="office-prace__list">
-                <li>
-                    <input type="checkbox" checked>
-                    <i></i>
-                    <h2 class="office-prace__list-item">Восстановление бухгалтерского и налогового учета</h2>
-                    <p class="office-prace__list-item__text">Для восстановления бухгалтерского учета Вашей организации нам понадобятся документы: Первичные документы (накладные, акты, счета-фактуры, платежные документы и т.д.); Главная книга; Остатки ТМЦ; Баланс (с приложениями) на 1 января
-                        восстанавливаемого года; Бухгалтерская программа, в которой велся учет, или оборотно-сальдовые ведомости; Документы по начислению заработной платы.
-                    </p>
-                </li>
-            </ul>
-            <ul class="office-prace__list">
-                <li>
-                    <input type="checkbox" checked>
-                    <i></i>
-                    <h2 class="office-prace__list-item">Постановка учета</h2>
-                    <p class="office-prace__list-item__text">Необходимость в постановке бухгалтерского и налогового учета пригодится в случаях: при создании предприятия; организацией не велся бухгалтерский учет; смене режима налогообложения; изменения в законодательстве; возникновении новых
-                        видов деятельности; восстановлении бухучета.</p>
-                </li>
-            </ul>
-            <ul class="office-prace__list">
-                <li>
-                    <input type="checkbox" checked>
-                    <i></i>
-                    <h2 class="office-prace__list-item">Кадровый учет</h2>
-                    <p class="office-prace__list-item__text">Расчет заработной платы, как часть кадровой политики компании, имеет высокое значение для эффективного и оперативного управления кадровыми ресурсами, а также предприятием в целом. Сотрудники — это главный механизм организации, без
-                        которого бизнес не сможет функционировать. Для фирм с небольшим количеством сотрудников нет нужды нанимать на работу штатного кадровика. Выгоднее всего эту функцию передать сторонней компании, оказывающей аутсорсинг кадрового учета.</p>
-                </li>
-            </ul>
-            <div class="office-prace__item">Юридические услуги для бизнеса </div>
-            <ul class="office-prace__list">
-                <li>
-                    <input type="checkbox" checked>
-                    <i></i>
-                    <h2 class="office-prace__list-item">Регистрация юридического лица</h2>
-                    <p class="office-prace__list-item__text">Регистрация (ИП, ЗАО, ОДО, ООО, ЧУП)</p>
-                    <p class="office-prace__list-item__text">Регистрация филиала</p>
-                    <p class="office-prace__list-item__text">Открытие иностранного представительства</p>
-                    <p class="office-prace__list-item__text">Регистрация юридического лица в Беларуси включает в себя такие этапы как согласование наименования, разработка устава, подача документов в регистрирующий орган, получение регистрационных документов.</p>
-                </li>
-                <li>
-                    <input type="checkbox" checked>
-                    <i></i>
-                    <h2 class="office-prace__list-item">Реорганизация юридического лица</h2>
-                    <p class="office-prace__list-item__text">Реорганизация в форме (выделения, преобразования, присоединения, разделения, слияния)</p>
-                    <p class="office-prace__list-item__text">Реорганизация ООО</p>
-                    <p class="office-prace__list-item__text">При реорганизации юридического лица происходит как прекращение, так и создание юридического лица с переходом прав и обязанностей от одного юридического лица к другому. Процедура реорганизации связана с расширением бизнеса, созданием
-                        более четкой структуры организации и т.д.</p>
-                </li>
-                <li>
-                    <input type="checkbox" checked>
-                    <i></i>
-                    <h2 class="office-prace__list-item">Внесение изменений в устав</h2>
-                    <p class="office-prace__list-item__text">Владельцы бизнеса часто сталкиваются с необходимостью внесения изменений в устав. Учредительная документация является основой для регулирования деятельности юрлица. Устав организации определяет порядок взаимоотношений между всеми участниками
-                        компании, а также устанавливает порядок управления фирмой. В документе указывают компетенцию руководителя, распределение долей между участниками общества и прочее.</p>
-                </li>
-                <li>
-                    <input type="checkbox" checked>
-                    <i></i>
-                    <h2 class="office-prace__list-item">Ликвидация юридического лица</h2>
-                    <p class="office-prace__list-item__text">Ликвидация фирм – юридический процесс, результатом которого является полное прекращение финансово-хозяйственной деятельности субъекта. Наша компания поможет вам провести процедуру закрытия организации в минимально возможные сроки с
-                        полным соблюдением буквы закона. Кроме того, ликвидация предприятий требует сбора и подготовки достаточно объемного пакета документов, а также обязательно соблюдения прописанной законом последовательности действий. Осуществить
-                        процедуру закрытия компании без квалифицированной юридической поддержки практически невозможно
-                    </p>
-                </li>
-            </ul>
-            <ul class="office-prace__list">
-                <li>
-                    <input type="checkbox" checked>
-                    <i></i>
-                    <h2 class="office-prace__list-item">Взыскание долгов</h2>
-                    <p class="office-prace__list-item__text">Наши специалисты бесплатно проанализируют документы, из которых возник долг, и определят стратегию возврата долга.Приказное производство,нотариальная надпись или исковое производство.</p>
-                </li>
-                <li>
-                    <input type="checkbox" checked>
-                    <i></i>
-                    <h2 class="office-prace__list-item">Составление договоров</h2>
-                    <p class="office-prace__list-item__text">Грамотно составленный договор поможет Вам избежать ненужных споров. Разработка договоров непосредственно для Вашего вида деятельности - максимальная защита Ваших интересов.</p>
-                </li>
-                <li>
-                    <input type="checkbox" checked>
-                    <i></i>
-                    <h2 class="office-prace__list-item">Кадровое делопроизводство</h2>
-                    <p class="office-prace__list-item__text">Комплекс мероприятий, направленных на разработку локальных нормативных актов, документов по учету и движению кадрового состава организации, первичных форм по учету кадров, рабочего времени и расчетов с персоналом, учетно-регистрационной
-                        документации с целью регулирования трудовых правоотношений. Документальное оформление кадровых процедур является неотъемлемой обязанностью любого работодателя независимо от масштабов его деятельности и организационно-правовой формы.
-                        Грамотное ведение кадрового делопроизводства позволяет четко регламентировать взаимоотношения работодателя и работника, права и обязанности сторон трудовых отношений, создать организационно-правовые основы трудовых отношений.</p>
-                </li>
-                <li>
-                    <input type="checkbox" checked>
-                    <i></i>
-                    <h2 class="office-prace__list-item">Абонентское юридическое обслуживание</h2>
-                    <p class="office-prace__list-item__text">Широкий спектр юридических и консалтинговых услуг, направленных на комплексную защиту ваших интересов. Мы специализируемся на регистрации юридических лиц и правовом обеспечении хозяйственной деятельности предприятий малого и среднего
-                        бизнеса. Держать в штате множество разнопрофильных юристов довольно дорого и не всегда эффективно: нужно платить за них налоги, выплачивать постоянную зарплату, организовать рабочие места, обеспечить социальный пакет. Решением
-                        вопроса в таких ситуациях станет обращение к услугам профессиональной юридической компании, опытным специалистам которой Вы сможете доверить как полное юридическое сопровождение бизнеса, так и решение разовых задач. </p>
-                </li>
-            </ul>
-            <ul class="office-prace__list">
-                <li>
-                    <input type="checkbox" checked>
-                    <i></i>
-                    <h2 class="office-prace__list-item">Информационные технологии (IT)</h2>
-                    <p class="office-prace__list-item__text">Разработка договоров для IT компаний</p>
-                    <p class="office-prace__list-item__text">Регистрация прав на программный продукт</p>
-                    <p class="office-prace__list-item__text">Регистрация резидентов в ПВТ</p>
-                </li>
-                <li>
-                    <input type="checkbox" checked>
-                    <i></i>
-                    <h2 class="office-prace__list-item">Защита бизнеса</h2>
-                    <p class="office-prace__list-item__text">Защита нарушенных прав</p>
-                    <p class="office-prace__list-item__text">Антимонопольное регулирование</p>
-                    <p class="office-prace__list-item__text">Недобросовестная конкуренция</p>
-                    <p class="office-prace__list-item__text">Защита от подделок</p>
-                </li>
-                <li>
-                    <input type="checkbox" checked>
-                    <i></i>
-                    <h2 class="office-prace__list-item">Интеллектуальная собственность</h2>
-                    <p class="office-prace__list-item__text">Защита интеллектуальной собственности <br>Защита в правоохранительных органах <br>Защита в суде
-                    </p>
-                    <p class="office-prace__list-item__text">Распоряжение исключительными правами <br>Договор франчайзинга <br>Договор залога</p>
-                    <p class="office-prace__list-item__text">Регистрация интеллектуальной собственности <br>Защита коммерческой тайны <br>Регистрация товарного знака</p>
-                </li>
-            </ul>
-            <button class="btn__click jobs__btn">Получите Бесплатную консультацию прямо сейчас!</button>
+            <div class="blok__servis-and-lawyer">
+                <div class="click__item-clock clock__office-prace">
+                    <span class="spantopslaid next-servis activeBtnTopclick">Бухгалтерские услуги</span>
+                    <span class="spantopslaid prev-servis">Юридические услуги</span>
+                </div>
+                <!-- панель перехода end -->
+                <div class="servis">
+                    <div class="servis__title lawyer__title">Бухгалтерские услуги</div>
+                    <div class="servis-items__office">
+                        <div class="servis-items__office__item wow zoomIn">
+                            <img src="./assets/img/workbook.jpg" alt="" class="fon-prace">
+                            <p class="servis-items__office__item__prace">Восстановление книги учета доходов и расходов УСН</p>
+                            <p class="servis-items__office__item__prace__sale">от 50 pуб</p>
+                        </div>
+                        <div class="servis-items__office__item wow zoomIn">
+                            <img src="./assets/img/workbook.jpg" alt="" class="fon-prace">
+                            <p class="servis-items__office__item__prace">Восстановление книги учета доходов и расходов подоходный налог</p>
+                            <p class="servis-items__office__item__prace__sale">от 80 pуб</p>
+                        </div>
+                        <div class="servis-items__office__item wow zoomIn">
+                            <img src="./assets/img/workbook.jpg" alt="" class="fon-prace">
+                            <p class="servis-items__office__item__prace">Восстановление бухгалтерского учета</p>
+                            <p class="servis-items__office__item__prace__sale">от 200 pуб</p>
+                        </div>
+                        <div class="servis-items__office__item wow zoomIn">
+                            <img src="./assets/img/workbook.jpg" alt="" class="fon-prace">
+                            <p class="servis-items__office__item__prace">Экспресс-анализ учета</p>
+                            <p class="servis-items__office__item__prace__sale">от 150 pуб</p>
+                        </div>
+                        <div class="servis-items__office__item wow zoomIn">
+                            <img src="./assets/img/workbook.jpg" alt="" class="fon-prace">
+                            <p class="servis-items__office__item__prace">Выбор системы налогообложения</p>
+                            <p class="servis-items__office__item__prace__sale">от 100 pуб</p>
+                        </div>
+                        <div class="servis-items__office__item wow zoomIn">
+                            <img src="./assets/img/workbook.jpg" alt="" class="fon-prace">
+                            <p class="servis-items__office__item__prace">Bедение клиент-банка или интернет-банка до 10 платежей</p>
+                            <p class="servis-items__office__item__prace__sale">от 50 pуб</p>
+                        </div>
+                        <div class="servis-items__office__item wow zoomIn">
+                            <img src="./assets/img/workbook.jpg" alt="" class="fon-prace">
+                            <p class="servis-items__office__item__prace">Анализ хозяйственной деятельности</p>
+                            <p class="servis-items__office__item__prace__sale">от 1000 pуб</p>
+                        </div>
+                        <div class="servis-items__office__item wow zoomIn">
+                            <img src="./assets/img/workbook.jpg" alt="" class="fon-prace">
+                            <p class="servis-items__office__item__prace">Подготовка пакета документа для получения кредита</p>
+                            <p class="servis-items__office__item__prace__sale">от 70 pуб</p>
+                        </div>
+                        <div class="servis-items__office__item wow zoomIn">
+                            <img src="./assets/img/workbook.jpg" alt="" class="fon-prace">
+                            <p class="servis-items__office__item__prace">Консультирование </p>
+                            <p class="servis-items__office__item__prace__sale">от 50 pуб
+                            </p>
+                        </div>
+                        <div class="servis-items__office__item wow zoomIn">
+                            <img src="./assets/img/workbook.jpg" alt="" class="fon-prace">
+                            <p class="servis-items__office__item__prace">Подготовка документов для кредита или лизинга</p>
+                            <p class="servis-items__office__item__prace__sale">от 70 pуб</p>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn__click jobs__btn">Оставить заявку на консультацию</button>
+                    <p class="servis__text">* Стоимость услуг определяется индивидуально на основании сведений о вашем предприятии либо индивидуальном предпринимателе</p>
+                </div>
+                <!-- servis end -->
+
+
+                <!-- lawyer -->
+                <div class="lawyer">
+                    <div class="lawyer__title">Юридические услуги</div>
+                    <div class="servis-items__office">
+                        <div class="servis-items__office__item wow zoomIn">
+                            <img src="./assets/img/act.jpg" alt="" class="fon-prace">
+                            <p class="servis-items__office__item__prace">Регистрация ООО, ОДО пакет документов без сопровождения</p>
+                            <p class="servis-items__office__item__prace__sale">от 100 pуб</p>
+                        </div>
+                        <div class="servis-items__office__item wow zoomIn">
+                            <img src="./assets/img/act.jpg" alt="" class="fon-prace">
+                            <p class="servis-items__office__item__prace">Регистрация ООО, ОДО пакет документов с сопровождением</p>
+                            <p class="servis-items__office__item__prace__sale">от 120 pуб</p>
+                        </div>
+                        <div class="servis-items__office__item wow zoomIn">
+                            <img src="./assets/img/act.jpg" alt="" class="fon-prace">
+                            <p class="servis-items__office__item__prace">Регистрация ООО, ОДО с сопровождением и дополнительными услугами</p>
+                            <p class="servis-items__office__item__prace__sale">от 300 pуб</p>
+                        </div>
+                        <div class="servis-items__office__item wow zoomIn">
+                            <img src="./assets/img/act.jpg" alt="" class="fon-prace">
+                            <p class="servis-items__office__item__prace">Подготовка документов для регистрации ЧУП</p>
+                            <p class="servis-items__office__item__prace__sale">от 90 pуб</p>
+                        </div>
+                        <div class="servis-items__office__item wow zoomIn">
+                            <img src="./assets/img/act.jpg" alt="" class="fon-prace">
+                            <p class="servis-items__office__item__prace">Регистрация ЧУП с сопровождением</p>
+                            <p class="servis-items__office__item__prace__sale">от 200 pуб</p>
+                        </div>
+                        <div class="servis-items__office__item wow zoomIn">
+                            <img src="./assets/img/act.jpg" alt="" class="fon-prace">
+                            <p class="servis-items__office__item__prace">Подготовка документов для регистрации ЗАО</p>
+                            <p class="servis-items__office__item__prace__sale">от 350 pуб</p>
+                        </div>
+                        <div class="servis-items__office__item wow zoomIn">
+                            <img src="./assets/img/act.jpg" alt="" class="fon-prace">
+                            <p class="servis-items__office__item__prace">Регистрация ЗАО с сопровождением</p>
+                            <p class="servis-items__office__item__prace__sale">от 500 pуб</p>
+                        </div>
+                        <div class="servis-items__office__item wow zoomIn">
+                            <img src="./assets/img/act.jpg" alt="" class="fon-prace">
+                            <p class="servis-items__office__item__prace">Подготовка документов для регистрации ИП</p>
+                            <p class="servis-items__office__item__prace__sale">от 70 pуб</p>
+                        </div>
+                        <div class="servis-items__office__item wow zoomIn">
+                            <img src="./assets/img/act.jpg" alt="" class="fon-prace">
+                            <p class="servis-items__office__item__prace">Регистрация ИП с сопровождением и консультацией по ведению деятельности</p>
+                            <p class="servis-items__office__item__prace__sale">от 140 pуб</p>
+                        </div>
+                        <div class="servis-items__office__item wow zoomIn">
+                            <img src="./assets/img/act.jpg" alt="" class="fon-prace">
+                            <p class="servis-items__office__item__prace">Подготовка документов для кредита или лизинга</p>
+                            <p class="servis-items__office__item__prace__sale">от 300 pуб</p>
+                        </div>
+                        <div class="servis-items__office__item wow zoomIn">
+                            <img src="./assets/img/act.jpg" alt="" class="fon-prace">
+                            <p class="servis-items__office__item__prace">Консультация юриста устная</p>
+                            <p class="servis-items__office__item__prace__sale">от 40 pуб</p>
+                        </div>
+                        <div class="servis-items__office__item wow zoomIn">
+                            <img src="./assets/img/act.jpg" alt="" class="fon-prace">
+                            <p class="servis-items__office__item__prace">Подготовка заявления о возбуждении исполнительного производства</p>
+                            <p class="servis-items__office__item__prace__sale">от 40 pуб</p>
+                        </div>
+                        <div class="servis-items__office__item wow zoomIn">
+                            <img src="./assets/img/act.jpg" alt="" class="fon-prace">
+                            <p class="servis-items__office__item__prace">Подготовка претензии, ответа на претензию</p>
+                            <p class="servis-items__office__item__prace__sale">от 50 pуб</p>
+                        </div>
+                        <div class="servis-items__office__item wow zoomIn">
+                            <img src="./assets/img/act.jpg" alt="" class="fon-prace">
+                            <p class="servis-items__office__item__prace">Правовая экспертиза документов</p>
+                            <p class="servis-items__office__item__prace__sale">от 60 pуб</p>
+                        </div>
+                        <div class="servis-items__office__item wow zoomIn">
+                            <img src="./assets/img/act.jpg" alt="" class="fon-prace">
+                            <p class="servis-items__office__item__prace">Юридическая консультация на email с краткими ссылками на законодательство</p>
+                            <p class="servis-items__office__item__prace__sale">от 70 pуб</p>
+                        </div>
+                        <div class="servis-items__office__item wow zoomIn">
+                            <img src="./assets/img/act.jpg" alt="" class="fon-prace">
+                            <p class="servis-items__office__item__prace">Смена юридического адреса</p>
+                            <p class="servis-items__office__item__prace__sale">от 70 pуб</p>
+                        </div>
+                        <div class="servis-items__office__item wow zoomIn">
+                            <img src="./assets/img/act.jpg" alt="" class="fon-prace">
+                            <p class="servis-items__office__item__prace">Подготовка хозяйственного договора</p>
+                            <p class="servis-items__office__item__prace__sale">от 80 pуб</p>
+                        </div>
+                        <div class="servis-items__office__item wow zoomIn">
+                            <img src="./assets/img/act.jpg" alt="" class="fon-prace">
+                            <p class="servis-items__office__item__prace">Подготовка заявления о возбуждении приказного производства</p>
+                            <p class="servis-items__office__item__prace__sale">от 80 pуб</p>
+                        </div>
+                        <div class="servis-items__office__item wow zoomIn">
+                            <img src="./assets/img/act.jpg" alt="" class="fon-prace">
+                            <p class="servis-items__office__item__prace">Юридическое сопровождение внесения изменений в лицензию в связи со сменой юридического адреса</p>
+                            <p class="servis-items__office__item__prace__sale">от 90 pуб</p>
+                        </div>
+                        <div class="servis-items__office__item wow zoomIn">
+                            <img src="./assets/img/act.jpg" alt="" class="fon-prace">
+                            <p class="servis-items__office__item__prace">Подготовка запросов в государственные органы, иные организации</p>
+                            <p class="servis-items__office__item__prace__sale">от 90 pуб</p>
+                        </div>
+                        <div class="servis-items__office__item wow zoomIn">
+                            <img src="./assets/img/act.jpg" alt="" class="fon-prace">
+                            <p class="servis-items__office__item__prace">Подготовка внешнеэкономического договора</p>
+                            <p class="servis-items__office__item__prace__sale">от 90 pуб</p>
+                        </div>
+                        <div class="servis-items__office__item wow zoomIn">
+                            <img src="./assets/img/act.jpg" alt="" class="fon-prace">
+                            <p class="servis-items__office__item__prace">Кадровое делопроизводство</p>
+                            <p class="servis-items__office__item__prace__sale">от 100 pуб</p>
+                        </div>
+                        <div class="servis-items__office__item wow zoomIn">
+                            <img src="./assets/img/act.jpg" alt="" class="fon-prace">
+                            <p class="servis-items__office__item__prace">Консультация юриста с привлечением налогового консультанта</p>
+                            <p class="servis-items__office__item__prace__sale">от 100 pуб</p>
+                        </div>
+                        <div class="servis-items__office__item wow zoomIn">
+                            <img src="./assets/img/act.jpg" alt="" class="fon-prace">
+                            <p class="servis-items__office__item__prace">Составление искового заявления в суд</p>
+                            <p class="servis-items__office__item__prace__sale">от 100 pуб</p>
+                        </div>
+                        <div class="servis-items__office__item wow zoomIn">
+                            <img src="./assets/img/act.jpg" alt="" class="fon-prace">
+                            <p class="servis-items__office__item__prace">Подготовка пакета документов о выдаче исполнительной надписи</p>
+                            <p class="servis-items__office__item__prace__sale">от 100 pуб</p>
+                        </div>
+                        <div class="servis-items__office__item wow zoomIn">
+                            <img src="./assets/img/act.jpg" alt="" class="fon-prace">
+                            <p class="servis-items__office__item__prace">Юридическое сопровождение внесения изменений в лицензию</p>
+                            <p class="servis-items__office__item__prace__sale">от 120 pуб</p>
+                        </div>
+                        <div class="servis-items__office__item wow zoomIn">
+                            <img src="./assets/img/act.jpg" alt="" class="fon-prace">
+                            <p class="servis-items__office__item__prace">Подготовка пакета документов для получения лицензии (без сопровождения)</p>
+                            <p class="servis-items__office__item__prace__sale">от 140 pуб</p>
+                        </div>
+                        <div class="servis-items__office__item wow zoomIn">
+                            <img src="./assets/img/act.jpg" alt="" class="fon-prace">
+                            <p class="servis-items__office__item__prace">Прочие изменения в устав (протоколы, устав иные документы)</p>
+                            <p class="servis-items__office__item__prace__sale">от 180 pуб</p>
+                        </div>
+                        <div class="servis-items__office__item wow zoomIn">
+                            <img src="./assets/img/act.jpg" alt="" class="fon-prace">
+                            <p class="servis-items__office__item__prace">Создание филиала (подготовка документов)</p>
+                            <p class="servis-items__office__item__prace__sale">от 200 pуб</p>
+                        </div>
+                        <div class="servis-items__office__item wow zoomIn">
+                            <img src="./assets/img/act.jpg" alt="" class="fon-prace">
+                            <p class="servis-items__office__item__prace">Сертификация работ и услуг в строительстве (подготовка документов для получения сертификата</p>
+                            <p class="servis-items__office__item__prace__sale">от 200 pуб</p>
+                        </div>
+                        <div class="servis-items__office__item wow zoomIn">
+                            <img src="./assets/img/act.jpg" alt="" class="fon-prace">
+                            <p class="servis-items__office__item__prace">Подготовка пакета документов по защите коммерческой тайны</p>
+                            <p class="servis-items__office__item__prace__sale">от 220 pуб</p>
+                        </div>
+                        <div class="servis-items__office__item wow zoomIn">
+                            <img src="./assets/img/act.jpg" alt="" class="fon-prace">
+                            <p class="servis-items__office__item__prace">Декларации / Сертификаты сопровождение сертификации по Техническим регламентам Таможенного союза</p>
+                            <p class="servis-items__office__item__prace__sale">от 240 pуб</p>
+                        </div>
+                        <div class="servis-items__office__item wow zoomIn">
+                            <img src="./assets/img/act.jpg" alt="" class="fon-prace">
+                            <p class="servis-items__office__item__prace">Юридическое сопровождение получения лицензии (лицензия «под ключ»)</p>
+                            <p class="servis-items__office__item__prace__sale">от 240 pуб</p>
+                        </div>
+                        <div class="servis-items__office__item wow zoomIn">
+                            <img src="./assets/img/act.jpg" alt="" class="fon-prace">
+                            <p class="servis-items__office__item__prace">Реорганизация предприятия в форме преобразования (пакет документов)</p>
+                            <p class="servis-items__office__item__prace__sale">от 250 pуб</p>
+                        </div>
+                        <div class="servis-items__office__item wow zoomIn">
+                            <img src="./assets/img/act.jpg" alt="" class="fon-prace">
+                            <p class="servis-items__office__item__prace">Внесение изменений и дополнений в учредительные документы</p>
+                            <p class="servis-items__office__item__prace__sale">от 280 pуб</p>
+                        </div>
+                        <div class="servis-items__office__item wow zoomIn">
+                            <img src="./assets/img/act.jpg" alt="" class="fon-prace">
+                            <p class="servis-items__office__item__prace">Составление и подача заявки на регистрацию товарного знака и знака обслуживания</p>
+                            <p class="servis-items__office__item__prace__sale">от 300 pуб</p>
+                        </div>
+                        <div class="servis-items__office__item wow zoomIn">
+                            <img src="./assets/img/act.jpg" alt="" class="fon-prace">
+                            <p class="servis-items__office__item__prace">Создание филиала «под ключ»</p>
+                            <p class="servis-items__office__item__prace__sale">от 300 pуб</p>
+                        </div>
+                        <div class="servis-items__office__item wow zoomIn">
+                            <img src="./assets/img/act.jpg" alt="" class="fon-prace">
+                            <p class="servis-items__office__item__prace">Продление срока аккредитации представительства</p>
+                            <p class="servis-items__office__item__prace__sale">от 300 pуб</p>
+                        </div>
+                        <div class="servis-items__office__item wow zoomIn">
+                            <img src="./assets/img/act.jpg" alt="" class="fon-prace">
+                            <p class="servis-items__office__item__prace">Внесение изменений в Положение о представительстве иностранной организации с сопровождением</p>
+                            <p class="servis-items__office__item__prace__sale">от 300 pуб</p>
+                        </div>
+                        <div class="servis-items__office__item wow zoomIn">
+                            <img src="./assets/img/act.jpg" alt="" class="fon-prace">
+                            <p class="servis-items__office__item__prace">Сопровождение ликвидации организации, не начавшей хозяйственную деятельность</p>
+                            <p class="servis-items__office__item__prace__sale">от 300 pуб</p>
+                        </div>
+                        <div class="servis-items__office__item wow zoomIn">
+                            <img src="./assets/img/act.jpg" alt="" class="fon-prace">
+                            <p class="servis-items__office__item__prace">Подготовка документов для реорганизации в форме выделения, разделения, слияния, присоединения (пакет документов)</p>
+                            <p class="servis-items__office__item__prace__sale">от 320 pуб</p>
+                        </div>
+                        <div class="servis-items__office__item wow zoomIn">
+                            <img src="./assets/img/act.jpg" alt="" class="fon-prace">
+                            <p class="servis-items__office__item__prace">Реорганизация предприятия в форме преобразования с сопровождением</p>
+                            <p class="servis-items__office__item__prace__sale">от 350 pуб</p>
+                        </div>
+                        <div class="servis-items__office__item wow zoomIn">
+                            <img src="./assets/img/act.jpg" alt="" class="fon-prace">
+                            <p class="servis-items__office__item__prace">Реорганизация в форме выделения, разделения, слияния, присоединения с сопровождением</p>
+                            <p class="servis-items__office__item__prace__sale">от 450 pуб</p>
+                        </div>
+                        <div class="servis-items__office__item wow zoomIn">
+                            <img src="./assets/img/act.jpg" alt="" class="fon-prace">
+                            <p class="servis-items__office__item__prace">Сертификация собственного производства / Сертификат происхождения товаров</p>
+                            <p class="servis-items__office__item__prace__sale">от 450 pуб</p>
+                        </div>
+                        <div class="servis-items__office__item wow zoomIn">
+                            <img src="./assets/img/act.jpg" alt="" class="fon-prace">
+                            <p class="servis-items__office__item__prace">Смена собственника имущества частного унитарного предприятия</p>
+                            <p class="servis-items__office__item__prace__sale">от 500 pуб</p>
+                        </div>
+                        <div class="servis-items__office__item wow zoomIn">
+                            <img src="./assets/img/act.jpg" alt="" class="fon-prace">
+                            <p class="servis-items__office__item__prace">Подготовка документов для аттестации в строительстве с сопровождением</p>
+                            <p class="servis-items__office__item__prace__sale">от 600 pуб</p>
+                        </div>
+                        <div class="servis-items__office__item wow zoomIn">
+                            <img src="./assets/img/act.jpg" alt="" class="fon-prace">
+                            <p class="servis-items__office__item__prace">Купля-продажа предприятия как имущественного комплекса</p>
+                            <p class="servis-items__office__item__prace__sale">от 800 pуб</p>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn__click jobs__btn">Оставить заявку на консультацию</button>
+                    <p class="servis__text">* Стоимость услуг определяется индивидуально на основании сведений о вашем предприятии либо индивидуальном предпринимателе</p>
+                </div>
+                <!-- lawyer end-->
+            </div>
         </div>
-
-
-
-
+        <!-- office-prace --end>
 
         <!-- topic -->
         <div class="topic">
-            <div class="topic__title">Остались вопросы? Напишите нам</div>
+            <div class="topic__title">Остались вопросы? <br>Напишите нам</div>
             <div class="topic__subtitle">Мы здесь, чтобы помочь вам</div>
             <form action="./core/send.php" method="POST" class="form-submit topic-form">
                 <div class="section-form">
@@ -240,19 +424,19 @@
                 </div>
                 <button class="submit-button btn__topic">Отправить</button>
             </form>
+            <div class="social">
+                <div class="social__title"></div>
+                <button class="btn"><img src="./assets/img/messange.svg" alt=""></button>
+                <a href="https://www.facebook.com/LegalChoice.by"><img class="social__icon fa active" src="./assets/img/facebook.svg" alt="svg+xml"></a>
+                <a href="https://www.instagram.com/legal_choice"><img class="social__icon inst active" src="./assets/img/instagram.svg" alt="svg+xml"></a>
+                <a href="https://join.skype.com/SSv7a8bk4AM2"><img class="social__icon skype active" src="./assets/img/skype.svg" alt="svg+xml"></a>
+                <a href="https://t.me/joinchat/AAAAAFLT5nGgBgdqZBMXjA"><img class="social__icon telegram active" src="./assets/img/telegram.svg" alt="svg+xml"></a>
+                <a href="https://vk.com/legalchoice"><img class="social__icon vk active" src="./assets/img/vk.svg" alt="svg+xml"></a>
+            </div>
         </div>
 
 
         <div class="topic-contacts">
-            <div class="social">
-                <div class="social__title"></div>
-                <button class="btn "><img src="./assets/img/messange.svg" alt=""></button>
-                <a href="#"><img class="social__icon fa active" src="./assets/img/facebook.svg" alt="svg+xml"></a>
-                <a href="#"><img class="social__icon inst active" src="./assets/img/instagram.svg " alt="svg+xml"></a>
-                <a href="#"><img class="social__icon skype active" src="./assets/img/skype.svg " alt="svg+xml"></a>
-                <a href="#"><img class="social__icon telegram active" src="./assets/img/telegram.svg " alt="svg+xml"></a>
-                <a href="#"><img class="social__icon vk active" src="./assets/img/vk.svg " alt="svg+xml"></a>
-            </div>
             <div class="topic__title-contacts-info">ООО «Лигал Чойз» <br>УНП 192378104, лицензия № 02240/2449 <br>на право осуществления деятельности на оказание юридических услуг</div>
             <div class="ico-wrap"> <i class="fa fa-map-marker ico-contact"></i>
             </div>
@@ -295,38 +479,47 @@
     </main>
     <div class="footer">
         <div class="footer__text">Информация, представленная на сайте не является договором публичной оферты © 2018­-2020</div>
+        <div class="box-tel box-tel-bottom">
+            <a href="https://www.facebook.com/LegalChoice.by" class="socr"><img src="./assets/img/facebook.png" alt="vk">Facebook</a>
+            <a href="https://vk.com/legalchoice" class="socr"><img src="./assets/img/vk.png" alt="vk">Вконтакте</a>
+            <a href="https://www.instagram.com/legal_choice/" class="socr"><img src="./assets/img/instagram.png" alt="logoinstagram">Instagram</a>
+            <a class="tel" href="tel:+375291110358"><img src="./assets/img/8939958468638.svg" alt="svg+xml">+375(29)111-03-58</a>
+            <a class="tel" href="tel:+375291401785"><img src="./assets/img/8939958468638.svg" alt="svg+xml">+375(29)140-17-85</a>
+        </div>
         <div class="copy">Дизайн и создание сайта - <a href="#">Pixar.by</a> © 2020</div>
     </div>
 
 
     <!-- sripts -->
-    <script async src="/js/swiper.min.js"></script>
-    <script async src="./js/jquery.js"></script>
-    <script async src="./js/main.js"></script>
-    <script async src="./js/plan.js"></script>
-    <script async src="./js/counter.js"></script>
+    <script defer src="/js/swiper.min.js"></script>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/main.js"></script>
+    <script defer src="./js/plan.js"></script>
+    <script defer src="./js/counter.js"></script>
     <script src="./js/wow.js"></script>
-    <script async src="./js/calc.js"></script>
+    <script defer src="./js/calc.js"></script>
     <script>
         new WOW().init();
     </script>
-    <script async src="./js/slaider.js"></script>
+    <script defer src="./js/slaider.js"></script>
 
     <!-- commetsjs -->
-    <script async src="js/masonry.pkgd.min.js"></script>
-    <script async src="js/jquery.flexslider-min.js"></script>
-    <script async src="js/modernizr.js"></script>
+    <script defer src="js/masonry.pkgd.min.js"></script>
+    <script defer src="js/jquery.flexslider-min.js"></script>
+    <script defer src="js/modernizr.js"></script>
     <!-- Modernizr -->
 
 
 
     <!-- Yandex.Metrika counter -->
-    <script async src="./js/metrika.js"></script>
+    <script defer src="./js/metrika.js"></script>
     <noscript>
             <div><img src="https://mc.yandex.ru/watch/57345202" style="position:absolute;
                     left:-9999px;" alt=""/></div>
         </noscript>
     <!-- /Yandex.Metrika counter -->
+    <div><a href="#" class="scrollup">Наверх</a></div>
+
 
 </body>
 
